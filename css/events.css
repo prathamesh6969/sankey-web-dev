@@ -1,0 +1,1712 @@
+/* chrome >= 28, safari >=9 IE>=12 opera >=14 */
+@supports (-webkit-appearance:none) {
+    body{
+        background-color: black !important;
+        display: flex;
+        justify-content: center;
+    }
+    .footer{
+        left: 0;
+        background-color: unset !important;
+    }
+    .top-nav{
+        background-color: transparent !important;
+    }
+    #top-nav-content a{
+        color: black;
+        font-family: 'gilroysemibold';
+    }
+    .right-nav div a{
+        color: black;
+        font-family: 'gilroysemibold';
+    }
+    .reveal{
+        width: 60% !important;
+        height: 100%;
+        background-color: white !important;
+    }
+    .reveal .slides{
+        width: 75% !important;
+        height: 100% !important;
+    }
+    .reveal .progress{
+        display: none !important;
+    }
+    .events-list{
+        width: 40%;
+        height: 80vh;
+        margin-left: 100px;
+        margin-top: 5%;
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        /* overflow-y: scroll; */
+    }
+    .events-inner-list{
+        /* margin-left: 100px; */
+        /* margin-top: 5%; */
+        /* z-index: 5;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; */
+        overflow-y: scroll;
+    }
+    .events-inner-list::-webkit-scrollbar{
+        display: none;
+    }
+    .slides > section{
+        width: 90% !important;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        padding: 15% 0%;
+    }
+    .events-title{
+        width: 100%;
+        height: auto;
+        color: #707070;
+        opacity: 0.6;
+        font-family: 'keepcalm';
+        font-size: 4.5rem;
+        margin: 5% 0;
+    }
+    .events-box{
+        width: 80%;
+        height: 20%;
+        display: flex;
+        cursor: pointer;
+    }
+    .square-box{
+        width: 95px;
+        height: 100%;
+        /* background-color: #54C5D0; */
+        color: white;
+        font-family: 'gilroysemibold';
+        font-size: 1.2rem;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .events-caption{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        /* padding-left: 2%; */
+        justify-content: center;
+        line-height: 1.5rem;
+    }
+    .events-caption h3{
+        font-family: 'gilroylight' !important;
+        color: white;
+        font-size: 1.2rem !important;
+    }
+    .events-caption h5{
+        font-family: 'gilroylight' !important;
+        color: white;
+        opacity: 0.54;
+        font-size: 1.0rem !important;
+    }
+    .vertical-line{
+        width: 2px;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 3%;
+        background-position: center;
+        background-image: url('../assets/events/vertical.png');
+    }
+    .horizontal-line{
+        width: 80%;
+        height: 2px;
+        margin: 2% 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('../assets/events/horizontal.png');
+    }
+    .events-image{
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .events-header{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .events-name{
+        font-family: 'gilroysemibold';
+        color: black;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        text-align: left;
+    }
+    .events-date-place{
+        font-family: 'gilroysemibold';
+        color: black;
+        font-size: 1.0rem;
+        line-height: 1.2rem;
+        opacity: 0.54;
+        text-align: left;
+    }
+    .pipe-symbol{
+        color: black;
+    }
+    .awards-name{
+        width: 100%;
+        height: auto;
+        color: black;
+        font-family: 'keepcalm';
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .events-description{
+        width: 100%;
+        height: auto;
+        color: black;
+        font-family: 'gilroysemibold';
+        font-size: 1.0rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 2% 0;
+        text-align: left;
+        line-height: 1.4rem;
+    }
+    .read-more{
+        width: 25%;
+        font-family: 'gilroysemibold';
+        font-size: 0.8rem;
+        color: black;
+        margin: 1% 0;
+        align-self: flex-start;
+        display: flex;
+        cursor: pointer;
+    }
+    .read-more a{
+        width: 100%;
+        font-family: 'gilroysemibold';
+        font-size: 0.8rem;
+        color: black;
+        margin: 1% 0;
+        align-self: flex-start;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+    }
+    #social-icon{
+        color:#00B6BD;
+        margin: 0 5%;
+        align-self: center;
+    }
+    .mobile-events-list{
+        display: none;
+    }
+    .close{
+        display: none;
+    }
+    .mobile-navigation-button{
+        display: none;
+    }
+    .prev-button{
+        display: none;
+    }
+    .next-button{
+        display: none;
+    }
+    .caption{
+        display: none;
+    }
+    #portrait{
+        display: none;
+    }
+    #landscape{
+        display: none;
+    }
+    .left-button{
+        display: none;
+    }
+    .right-button{
+        display: none;
+    }
+    @media (max-width: 720px) and (orientation: portrait)
+    {
+        .top-nav{
+            background-color: black !important;
+        }
+        .reveal{
+            width: 100% !important;
+            height: 100%;
+            background-color: white !important;
+            display: none;
+        }
+        .reveal .slides{
+            width: 80% !important;
+            height: 100% !important;
+            left: 0 !important;
+            top: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+        }
+        .slides > section{
+            width: 100% !important;
+            height: 100% !important;
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0% 0%;
+            overflow: scroll;
+        }
+        .slides > section::-webkit-scrollbar{
+            display: none;
+        }
+        #top-nav-content a{
+            color: white;
+        }
+        .events-list{
+            display: none;
+        }
+        .mobile-events-list{
+            width: 80%;
+            height: 100%;
+            padding: unset !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .events-title{
+            width: 100%;
+            height: 5vh;
+            color: #707070;
+            opacity: 0.6;
+            font-family: 'keepcalm';
+            display: flex;
+            justify-content: center;
+            font-size: 3.0rem;
+            margin: 10% 0;
+        }
+        .events-inner-list{
+            width: 100%;
+            height: 60%;
+        }
+        .events-box{
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            cursor: pointer;
+        }
+        .square-box{
+            width: 95px;
+            height: 75px;
+            /* background-color: #54C5D0; */
+            color: white;
+            font-family: 'gilroysemibold';
+            font-size: 1.0rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .events-caption{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            /* padding-left: 2%; */
+            justify-content: center;
+            line-height: 1.5rem;
+        }
+        .events-caption h3{
+            font-family: 'gilroylight' !important;
+            color: white;
+            font-size: 1.1rem !important;
+        }
+        .events-caption h5{
+            font-family: 'gilroylight' !important;
+            color: white;
+            opacity: 0.54;
+            font-size: 0.9rem !important;
+        }
+        .vertical-line{
+            width: 2px;
+            height: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 3%;
+            background-position: center;
+            background-image: url('../assets/events/vertical.png');
+        }
+        .horizontal-line{
+            width: 100%;
+            height: 2px;
+            margin: 5% 0;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url('../assets/events/horizontal.png');
+        }
+        .events-image{
+            width: 240px;
+            height: 190px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .events-header{
+            width: 100%;
+            height: 6vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 2% 0 0;
+        }
+        .events-name{
+            font-family: 'gilroysemibold';
+            color: black;
+            font-size: 1.0rem;
+            line-height: 1.2rem;
+            text-align: left;
+            width: 50%;
+        }
+        .events-date-place{
+            font-family: 'gilroysemibold';
+            color: black;
+            font-size: 0.8rem;
+            line-height: 1.2rem;
+            opacity: 0.54;
+            text-align: left;
+        }
+        .pipe-symbol{
+            color: black;
+        }
+        .awards-name{
+            width: 100%;
+            height: auto;
+            color: black;
+            font-family: 'keepcalm';
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            margin: 2%;
+            display: flex;
+            justify-content: flex-start;
+            text-align: left;
+        }
+        .events-description{
+            width: 100%;
+            height: auto;
+            color: black;
+            font-family: 'gilroysemibold';
+            font-size: 0.8rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            text-align: left;
+            line-height: 1.2rem;
+        }
+        .read-more{
+            width: 6rem;
+            font-family: 'gilroysemibold';
+            font-size: 0.8rem;
+            color: black;
+            margin: 4% 0;
+            align-self: flex-start;
+            display: flex;
+            cursor: pointer;
+        }
+        .read-more a{
+            width: 100%;
+            font-family: 'gilroysemibold';
+            font-size: 0.8rem;
+            color: black;
+            margin: 1% 0;
+            align-self: flex-start;
+            display: flex;
+            text-decoration: none;
+        }
+        #social-icon{
+            color:#00B6BD;
+            margin: 0 5%;
+        }
+        .close{
+            display: flex;
+            align-self: flex-start;
+            /* position: fixed; */
+            /* top: 80px; */
+            /* left: 5px; */
+            color: black;
+            /* background-color: black; */
+            font-weight: bold;
+            transition: 0.3s;
+            background-image: url('../assets/events/back.svg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width:25px;
+            height: 25px;
+            margin: 2.5rem 0 1rem;
+            cursor: pointer;
+        }
+        .mobile-navigation-button{
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: space-between;
+            font-family: 'gilroysemibold';
+            font-size: 0.8rem;
+            color: black;
+            margin: 3% 0;
+        }
+        .prev-button{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .next-button{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            text-align: right;
+            margin: 0 2%;
+        }
+        .caption-left{
+            height: 35px;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0 2%;
+        }
+        .caption-right{
+            height: 35px;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0 2%;
+        }
+        .caption-right p{
+            font-family: 'gilroysemibold' !important;
+            font-size: 1rem !important;
+            color: black; 
+            opacity: unset !important;
+            line-height: unset !important;
+            text-align: right;
+        }
+        .caption-right span{
+            font-family: 'gilroysemibold' !important;
+            font-size: 1rem !important;
+            color: black; 
+            opacity: 0.54 !important;
+            line-height: unset !important;
+        }
+        .caption-left p{
+            font-family: 'gilroysemibold' !important;
+            font-size: 1rem !important;
+            color: black; 
+            opacity: unset !important;
+            line-height: unset !important;
+            text-align: left;
+        }
+        .caption-left span{
+            font-family: 'gilroysemibold' !important;
+            font-size: 1rem !important;
+            color: black; 
+            opacity: 0.54 !important;
+            line-height: unset !important;
+            text-align: left;
+        }
+        .left-button{
+            display: block;
+            width: 35px !important;
+            height: 35px !important;
+        }
+        .right-button{
+            display: block;
+            width: 35px !important;
+            height: 35px !important;
+        }
+        .mobile-navigation-button img{
+            width: 70px;
+            height: 60px;
+        }
+        #portrait{
+            display: flex;
+        }
+        #landscape{
+            display: none;
+        }
+        #intercon-awards, #tech-summit,
+        #samanvaya, #top-startup{
+            top: 30px !important;
+            height: 90vh !important;
+        }
+    }
+    @media only screen and (orientation:landscape)
+    and (min-device-width: 319px) 
+    and (max-device-width: 1024px){
+        .top-nav{
+            background-color: unset !important;
+            width: 96% !important;
+            display: flex;
+            justify-content: space-between !important;
+            z-index: 6 !important;
+        }
+        .mobile-menu-icon{
+            width: 2rem !important;
+        }
+        .mobile-menu-exit {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding-right: 2.1%;
+            /* padding-top: 2.2%; */
+            padding-top: 15vh;
+        }
+        .mobile-menu-item {
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: flex-start;
+            line-height: 0.4rem;
+            font-size: 1.125rem;
+            padding: 0;
+            font-family: 'gilroysemibold' !important;
+            transition: all 3s ease-in-out;
+            transition-delay: 1s;
+            overflow-y: scroll;
+        }
+        .mobile-menu-item div {
+            padding: 2% !important;
+        }
+        .mobile-menu-footer {
+            height: 10vh;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-right: 2%;
+            padding-top: 5vh;
+            padding-bottom: 10vh;
+        }
+        #portrait{
+            display: none;
+        }
+        #landscape{
+            display: flex;
+        }
+        .reveal{
+            width: 100% !important;
+            height: 100%;
+            background-color: white !important;
+            /* display: none; */
+        }
+        .reveal .slides{
+            width: 80% !important;
+            height: 100% !important;
+            left: 0 !important;
+            top: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+        }
+        .slides > section{
+            width: 100% !important;
+            height: 100%;
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0% !important;
+        }
+        .events-list{
+            display: flex;
+            /* padding-left: 10px !important; */
+            overflow-y: scroll;
+            width: 40%;
+            height: 90%;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 10%;
+            z-index: 5;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            /* pointer-events: none; */
+            
+        }
+        .events-inner-list{
+            height: 80%;
+            width: 100%;
+        }
+        .mobile-events-list{
+            display: none;
+        }
+        .events-title{
+            width: 100%;
+            height: auto;
+            color: #707070;
+            opacity: 0.6;
+            font-family: 'keepcalm';
+            display: flex;
+            justify-content: center;
+            font-size: 1.8rem;
+            margin: 2% 0;
+        }
+        .events-box{
+            width: 90%;
+            height: 2.5rem;
+            display: flex;
+            cursor: pointer;
+        }
+        .square-box{
+            width: 65px;
+            height: 45px;
+            /* background-color: #54C5D0; */
+            color: white;
+            font-family: 'gilroysemibold';
+            font-size: 0.6rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .events-caption{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            /* padding-left: 2%; */
+            justify-content: center;
+            line-height: 0.8rem;
+        }
+        .events-caption h3{
+            font-family: 'gilroylight' !important;
+            color: white;
+            font-size: 0.7rem !important;
+        }
+        .events-caption h5{
+            font-family: 'gilroylight' !important;
+            color: white;
+            opacity: 0.54;
+            font-size: 0.5rem !important;
+        }
+        .vertical-line{
+            width: 2px;
+            height: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 3%;
+            background-position: center;
+            background-image: url('../assets/events/vertical.png');
+        }
+        .horizontal-line{
+            width: 100%;
+            height: 2px;
+            margin: 0.6% 0;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url('../assets/events/horizontal.png');
+        }
+        .events-image{
+            width: 100%;
+            height: 130px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain !important;
+            margin: 2% 0;
+        }
+        .events-header{
+            width: 100%;
+            height: 8vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .events-name{
+            font-family: 'gilroysemibold';
+            color: black;
+            font-size: 0.8rem;
+            line-height: 1.2rem;
+            text-align: left;
+            width: 50%;
+        }
+        .events-date-place{
+            font-family: 'gilroysemibold';
+            color: black;
+            font-size: 0.8rem;
+            line-height: 1.2rem;
+            opacity: 0.54;
+            text-align: left;
+        }
+        .pipe-symbol{
+            color: black;
+        }
+        .awards-name{
+            width: 100%;
+            height: auto;
+            color: black;
+            font-family: 'keepcalm';
+            font-size: 1.0rem;
+            line-height: 1.5rem;
+            margin: 1% 0;
+            display: flex;
+            justify-content: flex-start;
+            text-align: left;
+        }
+        .events-description{
+            width: 100%;
+            height: auto;
+            color: black;
+            font-family: 'gilroysemibold';
+            font-size: 0.7rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            text-align: left;
+            margin: 1% 0;
+            line-height: 1.0rem;
+        }
+        .read-more{
+            width: 22%;
+            font-family: 'gilroysemibold';
+            font-size: 0.5rem;
+            color: black;
+            margin: 2% 0;
+            align-self: flex-start;
+            display: flex;
+            cursor: pointer;
+        }
+        .read-more a{
+            width: 100%;
+            font-family: 'gilroysemibold';
+            font-size: 0.7rem;
+            color: black;
+            margin: 1% 0;
+            align-self: flex-start;
+            display: flex;
+            text-decoration: none;
+        }
+        #social-icon{
+            color:#00B6BD;
+            margin: 0 5%;
+            font-size: 0.8rem;
+            align-self: center;
+        }
+        .close{
+            display: none;
+        }
+        .mobile-navigation-button{
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: space-between;
+            font-family: 'gilroysemibold';
+            font-size: 0.8rem;
+            color: black;
+            margin: 3% 0;
+        }
+        .prev-button{
+            width: 50%;
+            height: 100%;
+            display: flex;
+        }
+        .next-button{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            text-align: right;
+            margin: 0 2%;
+        }
+        .caption-left{
+            height: 35px;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0 2%;
+        }
+        .caption-right{
+            height: 35px;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0 2%;
+        }
+        .caption-right p{
+            font-family: 'gilroysemibold' !important;
+            font-size: 1rem !important;
+            color: black; 
+            opacity: unset !important;
+            line-height: unset !important;
+            text-align: right;
+        }
+        .caption-right span{
+            font-family: 'gilroysemibold' !important;
+            font-size: 1rem !important;
+            color: black; 
+            opacity: 0.54 !important;
+            line-height: unset !important;
+        }
+        .caption-left p{
+            font-family: 'gilroysemibold' !important;
+            font-size: 1rem !important;
+            color: black; 
+            opacity: unset !important;
+            line-height: unset !important;
+            text-align: left;
+        }
+        .caption-left span{
+            font-family: 'gilroysemibold' !important;
+            font-size: 1rem !important;
+            color: black; 
+            opacity: 0.54 !important;
+            line-height: unset !important;
+            text-align: left;
+        }
+    
+        .mobile-navigation-button img{
+            width: 70px;
+            height: 60px;
+        }
+        .mobile-menu{
+            z-index: 8 !important;
+        }
+    }
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+
+/* for IE >=9 */
+@media screen and (min-width:0\0) {
+    body{
+        background-color: black !important;
+        display: flex;
+        justify-content: center;
+    }
+    .footer{
+        left: 0;
+        background-color: transparent !important;
+    }
+    #top-nav-content a{
+        color: black;
+        font-family: 'gilroysemibold';
+    }
+    .right-nav div a{
+        color: black;
+        font-family: 'gilroysemibold';
+    }
+    .reveal{
+        width: 60% !important;
+        height: 100%;
+        background-color: white !important;
+    }
+    .reveal .slides{
+        width: 75% !important;
+        height: 100% !important;
+    }
+    .reveal .progress{
+        display: none !important;
+    }
+    .events-list{
+        width: 40%;
+        height: 80vh;
+        margin-left: 100px;
+        margin-top: 5%;
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        /* overflow-y: scroll; */
+    }
+    .events-inner-list{
+        /* margin-left: 100px; */
+        /* margin-top: 5%; */
+        /* z-index: 5;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; */
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+    }
+    .slides > section{
+        width: 90% !important;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        padding: 14% 0%;
+    }
+    .events-title{
+        width: 100%;
+        height: auto;
+        color: #707070;
+        opacity: 0.6;
+        font-family: 'keepcalm';
+        font-size: 4.5rem;
+        margin: 5% 0;
+    }
+    .events-box{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        cursor: pointer;
+    }
+    .square-box{
+        width: 95px;
+        height: 100%;
+        /* background-color: #54C5D0; */
+        color: white;
+        font-family: 'gilroysemibold';
+        font-size: 1.2rem;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .events-caption{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        /* padding-left: 2%; */
+        justify-content: center;
+        line-height: 1.5rem;
+    }
+    .events-caption h3{
+        font-family: 'gilroylight' !important;
+        color: white;
+        font-size: 1.2rem !important;
+    }
+    .events-caption h5{
+        font-family: 'gilroylight' !important;
+        color: white;
+        opacity: 0.54;
+        font-size: 1.0rem !important;
+    }
+    .vertical-line{
+        width: 2px;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 3%;
+        background-position: center;
+        background-image: url('../assets/events/vertical.png');
+    }
+    .horizontal-line{
+        width: 80%;
+        height: 2px;
+        margin: 2% 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('../assets/events/horizontal.png');
+    }
+    .events-image{
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .events-header{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .events-name{
+        font-family: 'gilroysemibold';
+        color: black;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        text-align: left;
+    }
+    .events-date-place{
+        font-family: 'gilroysemibold';
+        color: black;
+        font-size: 1.0rem;
+        line-height: 1.5rem;
+        opacity: 0.54;
+        text-align: left;
+    }
+    .pipe-symbol{
+        color: black;
+    }
+    .awards-name{
+        width: 100%;
+        height: auto;
+        color: black;
+        font-family: 'keepcalm';
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .events-description{
+        width: 100%;
+        height: auto;
+        color: black;
+        font-family: 'gilroysemibold';
+        font-size: 1.0rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 2% 0;
+        text-align: left;
+        line-height: 1.4rem;
+    }
+    .read-more{
+        width: 20%;
+        font-family: 'gilroysemibold';
+        font-size: 0.8rem;
+        color: black;
+        margin: 1% 0;
+        align-self: flex-start;
+        display: flex;
+        cursor: pointer;
+    }
+    .read-more a{
+        width: 100%;
+        font-family: 'gilroysemibold';
+        font-size: 0.8rem;
+        color: black;
+        margin: 1% 0;
+        align-self: flex-start;
+        text-align: left;
+        display: flex;
+        text-decoration: none;
+    }
+    #social-icon{
+        color:#00B6BD;
+        margin: 0 5%;
+    }
+    .mobile-events-list{
+        display: none;
+    }
+    .close{
+        display: none;
+    }
+    .mobile-navigation-button{
+        display: none;
+    }
+    .prev-button{
+        display: none;
+    }
+    .next-button{
+        display: none;
+    }
+    .caption{
+        display: none;
+    }
+    #portrait{
+        display: none;
+    }
+    #landscape{
+        display: none;
+    }
+    .left-button{
+        display: none;
+    }
+    .right-button{
+        display: none;
+    }
+    @media (max-width: 720px) and (orientation: portrait)
+    {
+        .reveal{
+            width: 100% !important;
+            height: 100%;
+            background-color: white !important;
+            display: none;
+        }
+        .reveal .slides{
+            width: 80% !important;
+            height: 100% !important;
+            left: 0 !important;
+            top: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+        }
+        .slides > section{
+            width: 100% !important;
+            height: 100%;
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* padding: 14% 0%; */
+        }
+        .events-list{
+            display: none;
+        }
+        .mobile-events-list{
+            width: 80%;
+            height: 100%;
+            padding: unset !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .events-title{
+            width: 100%;
+            height: auto;
+            color: #707070;
+            opacity: 0.6;
+            font-family: 'keepcalm';
+            display: flex;
+            justify-content: center;
+            font-size: 3.0rem;
+            margin: 5% 0;
+        }
+        .events-box{
+            width: 80%;
+            height: auto;
+            display: flex;
+            cursor: pointer;
+        }
+        .square-box{
+            width: 95px;
+            height: 75px;
+            /* background-color: #54C5D0; */
+            color: white;
+            font-family: 'gilroysemibold';
+            font-size: 1.0rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .events-caption{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            /* padding-left: 2%; */
+            justify-content: center;
+            line-height: 1.5rem;
+        }
+        .events-caption h3{
+            font-family: 'gilroylight' !important;
+            color: white;
+            font-size: 1.1rem !important;
+        }
+        .events-caption h5{
+            font-family: 'gilroylight' !important;
+            color: white;
+            opacity: 0.54;
+            font-size: 0.9rem !important;
+        }
+        .vertical-line{
+            width: 2px;
+            height: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 3%;
+            background-position: center;
+            background-image: url('../assets/events/vertical.png');
+        }
+        .horizontal-line{
+            width: 80%;
+            height: 2px;
+            margin: 5% 0;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url('../assets/events/horizontal.png');
+        }
+        .events-image{
+            width: 100%;
+            height: 270px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .events-header{
+            width: 100%;
+            height: 6vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .events-name{
+            font-family: 'gilroysemibold';
+            color: black;
+            font-size: 1.0rem;
+            line-height: 1.2rem;
+            text-align: left;
+            width: 50%;
+        }
+        .events-date-place{
+            font-family: 'gilroysemibold';
+            color: black;
+            font-size: 0.8rem;
+            line-height: 1.2rem;
+            opacity: 0.54;
+            text-align: left;
+        }
+        .pipe-symbol{
+            color: black;
+        }
+        .awards-name{
+            width: 100%;
+            height: auto;
+            color: black;
+            font-family: 'keepcalm';
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            margin: 2%;
+            display: flex;
+            justify-content: flex-start;
+            text-align: left;
+        }
+        .events-description{
+            width: 100%;
+            height: auto;
+            color: black;
+            font-family: 'gilroysemibold';
+            font-size: 0.8rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            text-align: left;
+            line-height: 1.2rem;
+        }
+        .read-more{
+            width: 40%;
+            font-family: 'gilroysemibold';
+            font-size: 0.8rem;
+            color: black;
+            margin: 4% 0;
+            align-self: flex-start;
+            display: flex;
+            cursor: pointer;
+        }
+        .read-more a{
+            width: 100%;
+            font-family: 'gilroysemibold';
+            font-size: 0.8rem;
+            color: black;
+            margin: 1% 0;
+            align-self: flex-start;
+            display: flex;
+            text-decoration: none;
+        }
+        #social-icon{
+            color:#00B6BD;
+            margin: 0 5%;
+        }
+        .close{
+            display: flex;
+            align-self: flex-start;
+            /* position: fixed; */
+            /* top: 80px; */
+            /* left: 5px; */
+            color: black;
+            /* background-color: black; */
+            font-weight: bold;
+            transition: 0.3s;
+            background-image: url('../assets/events/back.svg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width:25px;
+            height: 25px;
+            margin: 1rem 0;
+            cursor: pointer;
+        }
+        .mobile-navigation-button{
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: space-between;
+            font-family: 'gilroysemibold';
+            font-size: 0.8rem;
+            color: black;
+            margin: 3% 0;
+        }
+        .prev-button{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .next-button{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            text-align: right;
+            margin: 0 2%;
+        }
+        .caption-left{
+            height: 35px;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0 2%;
+        }
+        .caption-right{
+            height: 35px;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0 2%;
+        }
+        .caption-right p{
+            font-family: 'gilroysemibold' !important;
+            font-size: 1rem !important;
+            color: black; 
+            opacity: unset !important;
+            line-height: unset !important;
+            text-align: right;
+        }
+        .caption-right span{
+            font-family: 'gilroysemibold' !important;
+            font-size: 1rem !important;
+            color: black; 
+            opacity: 0.54 !important;
+            line-height: unset !important;
+        }
+        .caption-left p{
+            font-family: 'gilroysemibold' !important;
+            font-size: 1rem !important;
+            color: black; 
+            opacity: unset !important;
+            line-height: unset !important;
+            text-align: left;
+        }
+        .caption-left span{
+            font-family: 'gilroysemibold' !important;
+            font-size: 1rem !important;
+            color: black; 
+            opacity: 0.54 !important;
+            line-height: unset !important;
+            text-align: left;
+        }
+        .left-button{
+            display: block;
+            width: 35px !important;
+            height: 35px !important;
+        }
+        .right-button{
+            display: block;
+            width: 35px !important;
+            height: 35px !important;
+        }
+        .mobile-navigation-button img{
+            width: 70px;
+            height: 60px;
+        }
+        #portrait{
+            display: flex;
+        }
+        #landscape{
+            display: none;
+        }
+    }
+    @media only screen and (orientation:landscape)
+    and (min-device-width: 319px) 
+    and (max-device-width: 1024px){
+        .top-nav{
+            background-color: unset !important;
+            width: 98% !important;
+            display: flex;
+            justify-content: space-between !important;
+        }
+        #portrait{
+            display: none;
+        }
+        #landscape{
+            display: flex;
+        }
+        .reveal{
+            width: 100% !important;
+            height: 100%;
+            background-color: white !important;
+            /* display: none; */
+        }
+        .reveal .slides{
+            width: 80% !important;
+            height: 100% !important;
+            left: 0 !important;
+            top: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+        }
+        .slides > section{
+            width: 100% !important;
+            height: 100%;
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10% 0% !important;
+        }
+        .events-list{
+            display: flex;
+            padding-left: 10px !important;
+            overflow-y: scroll;
+            
+        }
+        .mobile-events-list{
+            display: none;
+        }
+        .events-title{
+            width: 100%;
+            height: auto;
+            color: #707070;
+            opacity: 0.6;
+            font-family: 'keepcalm';
+            display: flex;
+            justify-content: center;
+            font-size: 2.0rem;
+            margin: 5% 0;
+        }
+        .events-box{
+            width: 100%;
+            height: auto;
+            display: flex;
+            cursor: pointer;
+        }
+        .square-box{
+            width: 65px;
+            height: 45px;
+            /* background-color: #54C5D0; */
+            color: white;
+            font-family: 'gilroysemibold';
+            font-size: 0.6rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .events-caption{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            /* padding-left: 2%; */
+            justify-content: center;
+            line-height: 1.5rem;
+        }
+        .events-caption h3{
+            font-family: 'gilroylight' !important;
+            color: white;
+            font-size: 0.7rem !important;
+        }
+        .events-caption h5{
+            font-family: 'gilroylight' !important;
+            color: white;
+            opacity: 0.54;
+            font-size: 0.5rem !important;
+        }
+        .vertical-line{
+            width: 2px;
+            height: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 3%;
+            background-position: center;
+            background-image: url('../assets/events/vertical.png');
+        }
+        .horizontal-line{
+            width: 80%;
+            height: 2px;
+            margin: 2% 0;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url('../assets/events/horizontal.png');
+        }
+        .events-image{
+            width: 100%;
+            height: 200px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain !important;
+            margin: 2% 0;
+        }
+        .events-header{
+            width: 100%;
+            height: 8vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .events-name{
+            font-family: 'gilroysemibold';
+            color: black;
+            font-size: 0.8rem;
+            line-height: 1.2rem;
+            text-align: left;
+            width: 50%;
+        }
+        .events-date-place{
+            font-family: 'gilroysemibold';
+            color: black;
+            font-size: 0.8rem;
+            line-height: 1.2rem;
+            opacity: 0.54;
+            text-align: left;
+        }
+        .pipe-symbol{
+            color: black;
+        }
+        .awards-name{
+            width: 100%;
+            height: auto;
+            color: black;
+            font-family: 'keepcalm';
+            font-size: 1.0rem;
+            line-height: 1.5rem;
+            margin: 1% 0;
+            display: flex;
+            justify-content: flex-start;
+            text-align: left;
+        }
+        .events-description{
+            width: 100%;
+            height: auto;
+            color: black;
+            font-family: 'gilroysemibold';
+            font-size: 0.7rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            text-align: left;
+            margin: 1% 0;
+            line-height: 1.0rem;
+        }
+        .read-more{
+            width: 40%;
+            font-family: 'gilroysemibold';
+            font-size: 0.5rem;
+            color: black;
+            margin: 2% 0;
+            align-self: flex-start;
+            display: flex;
+            cursor: pointer;
+        }
+        .read-more a{
+            width: 100%;
+            font-family: 'gilroysemibold';
+            font-size: 0.7rem;
+            color: black;
+            margin: 1% 0;
+            align-self: flex-start;
+            display: flex;
+            text-decoration: none;
+        }
+        #social-icon{
+            color:#00B6BD;
+            margin: 0 5%;
+            font-size: 0.8rem;
+        }
+        .close{
+            display: none;
+        }
+        .mobile-navigation-button{
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: space-between;
+            font-family: 'gilroysemibold';
+            font-size: 0.8rem;
+            color: black;
+            margin: 3% 0;
+        }
+        .prev-button{
+            width: 50%;
+            height: 100%;
+            display: flex;
+        }
+        .next-button{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            text-align: right;
+            margin: 0 2%;
+        }
+        .caption-left{
+            height: 35px;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0 2%;
+        }
+        .caption-right{
+            height: 35px;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0 2%;
+        }
+        .caption-right p{
+            font-family: 'gilroysemibold' !important;
+            font-size: 1rem !important;
+            color: black; 
+            opacity: unset !important;
+            line-height: unset !important;
+            text-align: right;
+        }
+        .caption-right span{
+            font-family: 'gilroysemibold' !important;
+            font-size: 1rem !important;
+            color: black; 
+            opacity: 0.54 !important;
+            line-height: unset !important;
+        }
+        .caption-left p{
+            font-family: 'gilroysemibold' !important;
+            font-size: 1rem !important;
+            color: black; 
+            opacity: unset !important;
+            line-height: unset !important;
+            text-align: left;
+        }
+        .caption-left span{
+            font-family: 'gilroysemibold' !important;
+            font-size: 1rem !important;
+            color: black; 
+            opacity: 0.54 !important;
+            line-height: unset !important;
+            text-align: left;
+        }
+    
+        .mobile-navigation-button img{
+            width: 70px;
+            height: 60px;
+        }
+    }
+}

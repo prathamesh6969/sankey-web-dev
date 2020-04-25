@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2036.098" height="1516.473" viewBox="0 0 2036.098 1516.473">
+  <g id="Group_102" data-name="Group 102" transform="translate(-7148 -5869)">
+    <g id="Group_101" data-name="Group 101" transform="translate(7199 5893)">
+      <g id="Group_96" data-name="Group 96" transform="translate(151.832 259.362)">
+        <path id="Path_503" data-name="Path 503" d="M743.6-18.908V-391.64h301.736V-8.765" transform="translate(-656.927 1196.593)" fill="none" stroke="#03729b" stroke-miterlimit="10" stroke-width="11"/>
+        <path id="Path_504" data-name="Path 504" d="M807.607,25.683l48.178-45.638,4.643-208.889s2.65-25.659,13.695-41.139c35.818-50.2,88.154-51.707,88.154-51.707V-78.277L1071.31,5.4c121.71,141.356-5.072,225.663-5.072,225.663l5.072,65.927H817.753c-103.96-43.1-83.677-144.525-83.677-144.525l-2.533-322.025c-5.072-60.855,32.96-101.42,32.96-101.42l286.525-228.2s57.049-31.694,69.726,25.355c3.439,15.459-16.691,39.064-16.691,39.064L1073.85-407.9" transform="translate(-731.077 507.962)" fill="none" stroke="#03729b" stroke-miterlimit="10" stroke-width="11"/>
+        <path id="Path_505" data-name="Path 505" d="M812.664-224.13,904.175-291.3s12.151-13.473,13.992-21.023c4.962-20.317,7.107-57.547-44.648-55.7L764.487-284.349,895.241-390.3s33.431-26.531,23.307-55.692c-12.927-37.237-47.561-31.057-47.561-31.057l-106.5,83.67" transform="translate(-533.285 688.678)" fill="none" stroke="#03729b" stroke-miterlimit="10" stroke-width="11"/>
+        <path id="Path_506" data-name="Path 506" d="M764.487-407.292,876.059-493.5s44.835,6.36,49.444,38.033c2.616,17.978-17.432,38.3-17.432,38.3l-37.084,35.23" transform="translate(-533.285 593.564)" fill="none" stroke="#03729b" stroke-miterlimit="10" stroke-width="11"/>
+      </g>
+      <g id="Group_97" data-name="Group 97" transform="translate(1485.553 259.362)">
+        <path id="Path_507" data-name="Path 507" d="M1226.214-18.908V-391.64H924.478V-8.765" transform="translate(-919.846 1196.593)" fill="none" stroke="#03729b" stroke-miterlimit="10" stroke-width="11"/>
+        <path id="Path_508" data-name="Path 508" d="M1240.322,25.683l-48.177-45.638L1187.5-228.844s-2.65-25.659-13.695-41.139c-35.825-50.2-88.161-51.707-88.161-51.707V-78.277L976.62,5.4c-121.709,141.356,5.066,225.663,5.066,225.663l-5.066,65.927h253.557c103.96-43.1,83.67-144.525,83.67-144.525l2.54-322.025c5.073-60.855-32.96-101.42-32.96-101.42L996.9-499.182s-57.049-31.694-69.727,25.355c-3.439,15.459,16.691,39.064,16.691,39.064L974.08-407.9" transform="translate(-923.81 507.962)" fill="none" stroke="#03729b" stroke-miterlimit="10" stroke-width="11"/>
+        <path id="Path_509" data-name="Path 509" d="M1032.55-224.13,941.039-291.3s-12.152-13.473-13.992-21.023c-4.969-20.317-7.114-57.547,44.648-55.7l109.025,83.678L949.973-390.3s-33.431-26.531-23.306-55.692c12.927-37.237,47.561-31.057,47.561-31.057l106.492,83.67" transform="translate(-918.884 688.678)" fill="none" stroke="#03729b" stroke-miterlimit="10" stroke-width="11"/>
+        <path id="Path_510" data-name="Path 510" d="M1085.139-407.292,973.573-493.5s-44.835,6.36-49.443,38.033c-2.616,17.978,17.431,38.3,17.431,38.3l37.085,35.23" transform="translate(-923.302 593.564)" fill="none" stroke="#03729b" stroke-miterlimit="10" stroke-width="11"/>
+      </g>
+      <line id="Line_208" data-name="Line 208" y2="88.746" transform="translate(1020.104 292.861)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <line id="Line_209" data-name="Line 209" y2="88.746" transform="translate(1020.104 1053.538)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <line id="Line_210" data-name="Line 210" x1="87.262" y1="16.16" transform="translate(1350.453 778.748)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <line id="Line_211" data-name="Line 211" x1="87.262" y1="16.16" transform="translate(602.492 640.237)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <line id="Line_212" data-name="Line 212" x1="76.369" y1="45.206" transform="translate(1309.214 888.71)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <line id="Line_213" data-name="Line 213" x1="76.369" y1="45.206" transform="translate(654.624 501.228)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <line id="Line_214" data-name="Line 214" x1="55.433" y1="69.303" transform="translate(1229.959 979.934)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <line id="Line_215" data-name="Line 215" x1="55.433" y1="69.303" transform="translate(754.815 385.907)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <line id="Line_216" data-name="Line 216" x1="29.686" y1="83.633" transform="translate(1132.488 1034.184)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <line id="Line_217" data-name="Line 217" x1="29.686" y1="83.633" transform="translate(878.033 317.328)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <line id="Line_218" data-name="Line 218" y1="82.777" x2="31.995" transform="translate(866.983 1030.944)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <line id="Line_219" data-name="Line 219" y1="82.777" x2="31.995" transform="translate(1141.229 321.423)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <line id="Line_220" data-name="Line 220" y1="67.347" x2="57.795" transform="translate(743.514 972.527)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <line id="Line_221" data-name="Line 221" y1="67.347" x2="57.795" transform="translate(1238.898 395.271)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <line id="Line_222" data-name="Line 222" y1="43.254" x2="77.491" transform="translate(649.253 881.32)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <line id="Line_223" data-name="Line 223" y1="43.254" x2="77.491" transform="translate(1313.463 510.57)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <line id="Line_224" data-name="Line 224" y1="16.536" x2="87.192" transform="translate(602.83 780.172)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <line id="Line_225" data-name="Line 225" y1="16.536" x2="87.192" transform="translate(1350.186 638.436)" stroke="#fff" stroke-miterlimit="10" stroke-width="11"/>
+      <g id="Group_100" data-name="Group 100" transform="translate(815.795 452.056)">
+        <path id="Path_511" data-name="Path 511" d="M945.239-446.551s19.439,1.515,22.248,3.252,5.882,19.874,7.3,23.078S955.979-398.1,955.979-398.1s16.691,27.39,15.992,29.6-30.289,121.966-30.289,121.966S869.935-353.545,868.475-358.86s6.865-32.85,6.865-32.85-21.245-15.653-22.532-19.071-4.007-25.238,0-28.006c2.464-1.709,16.746-4.92,16.746-4.92Z" transform="translate(-686.84 678.822)" fill="none" stroke="#03729b" stroke-miterlimit="10" stroke-width="11"/>
+        <path id="Path_512" data-name="Path 512" d="M893.239-358.3,870.23-435.969l-2.395-2.664-6.235-3.751-2.5,1.875,3.2,5.612a722.152,722.152,0,0,0-1.114,78.4c15.231,39.306,28.843,74.432,28.843,74.432Z" transform="translate(-637.116 703.491)" fill="none" stroke="#03729b" stroke-miterlimit="10" stroke-width="11"/>
+        <g id="Group_99" data-name="Group 99" transform="translate(178.938 230.402)">
+          <g id="Group_98" data-name="Group 98">
+            <path id="Path_513" data-name="Path 513" d="M866.589-444.454s25.992,24.885,32.656,23.8,10.145-26.172,10.145-26.172,23.736,6.823,26.642,10.138-4.194,35.8-7.321,37.382c-6.574,3.322-26.373-18.781-29.978-15.964s-13.806,21.694-17.169,21.321-30.13-26.781-28.621-36.49S866.589-444.454,866.589-444.454Z" transform="translate(-852.882 446.821)" fill="none" stroke="#03729b" stroke-miterlimit="10" stroke-width="11"/>
+          </g>
+        </g>
+        <path id="Path_514" data-name="Path 514" d="M917.321,30.922l4.837,5.121a50.762,50.762,0,0,0,5.654-3.855c5.224,5.107,3.163,11.058,1.737,17.148h254.838a14.858,14.858,0,0,0,2.727-7.107,10.86,10.86,0,0,0,.069-1.142c.194-9.017-9.045-17.2-2.422-25.639a50.367,50.367,0,0,0,6.111,3.073l2.968-4.117c.817.415,1.633.831,2.457,1.183,0,0,73.145-102.444,71.207-111.364-5.2-23.847-94.4-120.949-126.755-137.585l-5.148-2.92c-17.01-7.162-36.192-11.093-55.97-12.5-.574-.055-1.114-.111-1.495-.131l-.221.028c-6.214-.4-12.484-.567-18.768-.485l-2.138-12.477-1.5-8.8c50.841-7.536,42.04-50.406,41.624-79.255-.2-14.408.45-33.881-3.01-50.7.284-.076.553-.118.844-.2,21.4-6.131,32.627-42.5-3.094-67.27s-83.075-6.484-99.323,11.55-40.2,18.989-40.2,18.989-.048,7.986,7.792,16.975c-11.127,5.564-21.846,15.425-21.846,15.425l10.062,5.183s3.245,30.22,7.543,37.984c.256.464.574.962.927,1.481-3.965,2.81-6.94,8.4-5.681,19.3,3.1,26.691,22.421,27.223,28.123,28.372a58.817,58.817,0,0,0,26.94,34.856l13.826,31.929c-36.483,5.667-69.63,17.936-89.116,32.469a21.281,21.281,0,0,0-2.353,2.041c-32.351,28.6-99.476,120.007-101.538,144.885C826.275-57.536,912.27,34.4,912.27,34.4A55.152,55.152,0,0,0,917.321,30.922Zm254.34-36.96.042-.042c.1.132.2.263.3.394Zm20.477,17.044a104,104,0,0,1-12.5-9.5,105.466,105.466,0,0,0,12.5,9.5Zm3.944-104.112-37.341,77.47.076.09c.318.388,1.661,1.993,3.744,4.29h0l3.37-5.605,2.643,2.533-1.848,3.073-3.813,6.346c1,1.55,2.076,2.989,3.17,4.373l-.941.927c-2.74,2.7-5.135,5.045-7.114,6.962l-6.055-79.8-5.252-69.214ZM937.667,9.574c.09-.145.173-.291.256-.443l.048.041Zm8.518-144.588,2.719,8.449,24.013,85.836-9.931,67.035a13.92,13.92,0,0,1-3.349-1.1c-1.052-.568-6.463-4.574-14.359-10.519l-1.052-.8c.9-1.516,1.771-3.087,2.56-4.761l-4.609-5.779C944.22.4,945.39-1.5,945.39-1.5L898.181-73.383Z" transform="translate(-827.024 480.116)" fill="none" stroke="#03729b" stroke-miterlimit="10" stroke-width="11"/>
+      </g>
+      <text id="CUSTOMER_LIFECYCLE" data-name="CUSTOMER
+LIFECYCLE" transform="translate(217 81)" fill="#03729b" font-size="100" font-family="Poppins-Regular, Poppins"><tspan x="-267.15" y="0">CUSTOMER</tspan><tspan x="-238.4" y="96">LIFECYCLE</tspan></text>
+      <text id="CUSTOMER_VALUE" data-name="CUSTOMER
+VALUE" transform="translate(1035.997 1361.473)" fill="#03729b" font-size="100" font-family="Poppins-Regular, Poppins"><tspan x="-267.15" y="0">CUSTOMER</tspan><tspan x="-148.5" y="96">VALUE</tspan></text>
+      <text id="CUSTOMER_EXPERIENCE" data-name="CUSTOMER 
+EXPERIENCE" transform="translate(1704.098 83.534)" fill="#03729b" font-size="100" font-family="Poppins-Regular, Poppins"><tspan x="-280.5" y="0">CUSTOMER </tspan><tspan x="-279.05" y="96">EXPERIENCE</tspan></text>
+    </g>
+  </g>
+</svg>

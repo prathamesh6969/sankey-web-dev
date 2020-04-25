@@ -1,0 +1,795 @@
+@font-face {
+    font-family:keepcalm;
+    src: url("/fonts/KeepCalm-Medium.ttf");
+}
+.about-main{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    z-index: 0;
+}
+#slide1{
+    background-image: url("");
+}
+.wrap .background{
+    display:none;
+}
+.about-box2{
+    font-family: 'gilroysemibold';
+    font-size: 28px;
+    z-index: 1;
+    line-height: 3.6rem;
+    text-align: left !important;
+    width:100%;
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua;    */
+}
+.about-box-content4{
+    z-index: 1;
+    line-height: 3.6rem;
+    text-align: left !important;
+    width:100%;
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua;    */
+}
+
+.about-box7{
+    width:100%;
+    height: 100vh;
+    background-size: cover;
+    /* display: flex; */
+    /* position: absolute; */
+    /* flex-direction: column; */
+    /* background-color: aqua;    */
+    z-index: 2;
+    /* position: absolute; */
+}
+.about-box5{
+    z-index: 2;
+    line-height: 3.6rem;
+    width:100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* background-color: aqua;    */
+}
+.about-box2 h2{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* line-height: 7rem; */
+}
+.ribbon{
+    margin-left: 4%;
+    position: fixed;
+    z-index: 1;
+    block-size: 150vh;
+    pointer-events: none;
+}
+.about-box{
+    font-family: 'gilroysemibold';
+    font-size: 28px;
+    z-index: 2;
+    line-height: 3.6rem;
+    text-align: left !important;
+    width:100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    
+}
+.about-box1{
+    width:100% !important;
+    height: 24vh;
+    padding-left: 15%;
+    /* background-color: aqua; */
+}
+.about-box-content{
+    width:100% !important;
+    height: 30vh;
+    padding-left: 16%;
+    /* background-color: aqua; */
+}
+.about-box-content1{
+    width:100% !important;
+    height: 70vh;
+    /* padding-left: 16%; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 5%;
+    /* background-color: aqua; */
+}
+.about-box-content1 h4{
+    width:40%;
+    font-family: 'gilroylight';
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    padding-bottom: 5%;
+    color: white;
+    /* padding-left: 10%; */
+}
+.about-box-content1 h1{
+    width:100%;
+    font-family: 'keepcalm';
+    font-size:10.5rem;
+    z-index: 1;
+    /* padding-left: 9%; */
+    color: white !important;
+    /* opacity: 0.8; */
+}
+.about-box3{
+    width:100% !important;
+    /* background-color: aqua; */
+    height: 40vh;
+    padding-top: 8%;
+}
+.about-box-content2{
+    width:100% !important;
+    /* background-color: aqua; */
+    height: 40vh;
+    padding-top: 8%;
+    padding-left: 10%;
+}
+.about-box-content3{
+    width:100% !important;
+    height: 30vh;
+    padding-left: 16%;
+    /* background-color: aqua; */
+}
+.about-box-content3 h2{
+    font-size: 5.5rem !important;
+    font-family: 'keepcalm';
+    color: #707070;
+    /* letter-spacing: 0 !important; */
+}
+.about-box-content3 h1{
+    font-size: 3.5rem !important;
+    font-family: 'keepcalm';
+    color: white;
+    letter-spacing: 0 !important;
+    line-height: 3.2rem;
+}
+.about-box-content3 h4{
+    font-size: 2.0rem !important;
+    display: inline;
+    font-family: 'gilroylight';
+    color: white;
+}
+.about-box-content3 h5{
+    font-size: 2.6rem !important;
+    font-family: 'gilroylight';
+    color: white;
+}
+.image-content{
+    width:90%;
+    height: 100%;
+    /* padding-left: 20%; */
+}
+.image-content img{
+    height:60vh;
+    width: 100%;
+}
+.about-box3 h2{
+    color: white;
+}
+.about-box3 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    font-size: 4.5rem !important;
+    margin-top: 1%;
+    /* margin-left: 17%;  */
+}
+
+.about-box3 ul li{
+    /* min-width: 22rem; */
+    width: auto;
+    line-height: 11rem;
+    margin-left: 20px;
+    margin-right: 25px;
+    /* transition: all 3s ease-in-out;
+    transition-delay: 2s; */
+}
+.about-box-content2 h4{
+    font-family: 'gilroylight';
+    font-size: 2.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.about-box-content2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    font-family: 'keepcalm';
+    font-size: 3.5rem !important;
+    /* margin-left: 17%;  */
+}
+
+.about-box-content2 ul li{
+    /* min-width: 22rem; */
+    width: auto;
+    line-height: 11rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* transition: all 3s ease-in-out;
+    transition-delay: 2s; */
+}
+
+.about-box-content2 h5{
+    font-family: 'gilroylight';
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.animateText
+{
+    color: white;
+}
+
+/* .animation-1x{
+    animation-duration: 1s;
+}
+
+.animation-2x{
+    animation-duration: 3s;
+}
+.animation-3x{
+    animation-duration: 3s;
+}
+.animation-4x{
+    animation-duration: 3s;
+} */
+.vivusBox{
+    width: 100%;
+    height: 50vh;
+}
+#vivus1{
+    float:right;
+}
+.about-box1 h1{
+    font-size: 6.2rem !important;
+    font-family: 'keepcalm';
+    color: white;
+}
+.about-box1 h4{
+    font-size: 3.4rem !important;
+    font-family: 'gilroylight';
+    color: white;
+    display: inline;
+}
+.about-box1 h5{
+    font-size: 2.6rem !important;
+}
+.about-box-content h1{
+    font-size: 7.6rem !important;
+    font-family: 'keepcalm';
+    color: white;
+    letter-spacing: 0;
+}
+.about-box-content h4{
+    font: size 2.6rem !important;
+    font-family: 'gilroylight';
+    color: white;
+    display: inline;
+}
+.about-box-content h5{
+    font-size: 2.6rem !important;
+    font-family: 'gilroylight';
+    color: white;
+}
+.about-box h5{
+    font-size: 2.6rem !important;
+    margin-left: 17%;
+}
+.about-box4{
+    display:none;
+}
+.about-box3 h4{
+    font-size: 3.4rem !important;
+    font-family: 'gilroylight';
+    color: white;
+}
+.about-box6{
+    width:100%;
+    height: 30vh;
+}
+.about-box6 h1{
+    font-family: 'keepcalm';
+    font-size:9.5rem;
+    text-align: center !important;
+    z-index: 2;
+}
+.about-box6 h5{
+    font-size: 2.2rem;
+    font-family: 'gilroylight';
+    color: white;
+    width: 35%;
+    z-index: 1;
+}
+.h5{
+    font-size: 2.6rem !important;
+    margin-left: 17%;
+}
+.about-header{
+    font-size: 9rem;
+    font-family: 'keepcalm','sanserif';
+    color:#707070;
+    opacity:0.6;
+    line-height: 10.6rem;
+    padding-left: 15%;
+}
+.about-people{
+    width:100% !important;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 17%;
+}
+.about-people-icon{
+    margin-right:0.2%;
+}
+.about-people1{
+    width:100% !important;
+    height: 11% !important;
+    display:flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* margin-right: 20%; */
+    /* margin-top: -2%; */
+    /* background-color: aqua; */
+}
+.about-people-icon1{
+    margin-right: 2%;
+    margin-left: 2%;
+    height:10%;
+    /* opacity: 0.2; */
+}
+.about-people2{
+    width:60% !important;
+    height: 50% !important;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 16%;
+    /* background-color: aqua; */
+}
+#webslides{
+    width:100%;
+}
+@media (max-width:720px) and (orientation:portrait){
+.wrap{
+    overflow:hidden;
+    height: 84vh !important;
+}
+section, .slide{
+    min-height: 92vh !important;
+}
+.background{
+    background-size: 80rem 70rem !important;
+    background-position-x: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: min-content;
+}
+.about-box2{
+    font-family: 'gilroylight';
+    font-size: 20px;
+    z-index: 2;
+    line-height: 1rem;
+    text-align: left !important;
+    height: 56vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 17%;
+    /* background-color: aqua;    */
+}
+.about-box-content2 h5{
+    font-size: 2.5rem !important;
+    float: none;
+}
+.about-box-content4{
+    height: 50vh;
+}
+.about-box-content3{
+    width:100% !important;
+    height: 30vh;
+    padding: 0;
+    /* padding-left: 16%;
+    padding-top: 5%; */
+    /* background-color: aqua; */
+}
+.about-box-content3 h2{
+    font-size: 3.5rem !important;
+    font-family: 'keepcalm';
+    color: #707070;
+    /* letter-spacing: 0 !important; */
+}
+.about-box-content3 h1{
+    font-size: 2.0rem !important;
+    width: 92%;
+    font-family: 'keepcalm';
+    color: white;
+    letter-spacing: 0 !important;
+}
+.about-box-content3 h4{
+    font: size 2.6rem !important;
+    display: inline;
+}
+.about-box-content3 h5{
+    font-size: 2.0rem !important;
+}
+.about-box-content2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    font-family: 'keepcalm';
+}
+
+.about-box-content2 ul li{
+    width: auto;
+    line-height: 9rem;
+    margin-left: 20px;
+    font-size: 2.0rem !important;
+    margin-right: 35%;
+}
+.about-box1{
+    width:100%;
+}
+.about-box1 h4{
+    font-size: 2.2rem !important;
+    color: white;
+}
+.about-box4{
+    font-family: 'gilroylight';
+    font-size: 20px;
+    z-index: 2;
+    line-height: 1rem;
+    text-align: left !important;
+    /* width:100%; */
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    /* background-color: aqua;    */
+}
+.about-box-content1{
+    width:100% !important;
+    height: 50vh;
+    /* padding-left: 16%; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 5%;
+    /* background-color: aqua; */
+}
+.about-box-content1 h4{
+    width:80%;
+    font-family: 'gilroylight';
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    padding-bottom: 5%;
+    color: white;
+    /* padding-left: 10%; */
+}
+.about-box-content1 h1{
+    width:100%;
+    font-family: 'keepcalm';
+    font-size:10.5rem;
+    z-index: 1;
+    /* padding-left: 9%; */
+    color: white !important;
+    /* opacity: 0.8; */
+}
+.about-header{
+    font-size: 10rem;
+    font-family: 'keepcalm','sanserif';
+    color:#707070;
+    opacity:0.6;
+    margin-left: 0%;
+}
+.about-box h1{
+    font-size: 4.0rem !important;
+    
+}
+.about-box2 h1{
+    margin:0;
+    font-size: 4.0rem !important;
+}
+.about-box2 h2{
+    font-size: 4.5rem !important;
+    width: 100%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    /* margin-top: 20%; */
+    /* margin-right: 30%; */
+    /* background-color: aqua;  */
+    /* line-height: 7rem; */
+}
+.about-box2 h4{
+    font-size: 2.0rem !important;
+    font-family: 'gilroylight';
+    color: white;
+    margin: 0;
+    justify-content: unset;
+}
+.about-box2 h5{
+    font-size: 2.0rem !important;
+    margin: 0;
+    font-family: 'gilroylight';
+    color: white;
+    justify-content: unset;
+}
+.about-box-content{
+    padding:0;
+}
+
+.about-box3 h4{
+    font-size: 2.4rem !important;
+    font-style: "gilroylight";
+    margin: 0;
+    color:white;
+    /* margin-top: 10%; */
+    margin-left: 10%;
+}
+.about-box3 ul{
+    margin-left: 10%;
+}
+.about-box3 ul li{
+    /* min-width: 22rem; */
+    width: auto;
+    line-height: 11rem;
+    margin-left: 30px;
+    margin-right: 33%;
+    /* transition: all 3s ease-in-out;
+    transition-delay: 2s; */
+}
+li{
+    font-family: 'keepcalm';
+    font-size: 2.5rem !important;
+    line-height: 6rem !important;
+    flex-wrap:wrap;
+    min-width: 3rem;
+}
+.about-people1{
+    width:278% !important;
+    height: 11% !important;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 0; */
+}
+.about-people2{
+    width:100% !important;
+    height: 50% !important;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding:0;
+    /* margin-top: 5%; */
+}
+.about-people-icon2{
+    margin-right: 5%;
+    /* margin-left: 2%; */
+    /* opacity: 0.2; */
+}
+#chartdiv{
+    width: 87%;
+    height: 100%;
+    overflow: hidden;
+    opacity: .6;
+    z-index: 2;
+    position: absolute;
+}
+#chartdiv1 {
+    width: 108%;
+    overflow: hidden;
+    opacity: .6;
+    z-index:2;
+    position: absolute;
+    margin-left: -10%;
+}
+}
+
+@media screen and (orientation:landscape) and (max-width:1024px){
+    .wrap{
+        overflow:hidden;
+    }
+    .about-box{
+        font-family: 'gilroysemibold';
+        font-size: 28px;
+        z-index: 2;
+        line-height: 3.6rem;
+        text-align: left !important;
+        width: 46%;
+        height: 84vh;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        /* padding-left: 10%; */
+        /* padding-right: 10%; */
+        /* background-color: aqua; */
+    }
+    .about-box2{
+        font-family: 'gilroylight';
+        font-size: 20px;
+        z-index: 2;
+        line-height: 1rem;
+        text-align: left !important;
+        height: 72vh;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: aqua;    */
+    }
+    .about-box3{
+        padding: unset;
+    }
+    .about-box2 h5{
+        display: flex;
+        float: unset;
+    }
+    .about-box-content2{
+        padding: unset;
+    }
+    .about-box-content2 ul{
+        justify-content: space-around;
+    }
+    .about-box-content2 ul li{
+        font-size: 2.2rem !important;
+        width: auto;
+    }
+    .about-box-content3 h1{
+        font-size: 2.0rem !important;
+    }
+    .about-box-content3 h5{
+        font-size: 1.5rem !important;
+    }
+    .about-box-content3 h4{
+        font-size: 1.5rem !important;
+    }
+    .about-box-content3 h2{
+        font-size: 2.5rem !important;
+    }
+    .about-box4{
+        font-family: 'gilroylight';
+        font-size: 20px;
+        z-index: 2;
+        line-height: 1rem;
+        text-align: left !important;
+        /* width:100%; */
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        /* padding-left: 10%;
+        padding-right: 10%; */
+        /* background-color: aqua;    */
+    }
+    .about-header{
+        font-size: 10rem;
+        font-family: 'keepcalm','sanserif';
+        color:#707070;
+        opacity:0.6;
+        line-height: 7.6rem;
+        margin-left: 0%;
+    }
+    .about-box-content{
+        line-height: 2.2rem !important;
+        height: auto;
+    }
+    .about-box h1{
+        font-size: 2.3rem !important;
+    }
+    .about-box2 h1{
+        margin:0;
+        font-size: 3.5rem !important;
+    }
+    .about-box2 h2{
+        font-size: 4.5rem;
+        width: 100%;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /* margin-top: 20%; */
+        /* margin-right: 30%; */
+        /* background-color: aqua;  */
+        /* line-height: 7rem; */
+    }
+    .about-box2 h4{
+        font-size: 1.7rem !important;
+        font-family: 'gilroylight';
+        color: white;
+        margin: 0;
+    }
+    .about-box2 h5{
+        font-size: 1.7rem !important;
+    }
+    .about-box1{
+        height: auto;
+    }
+    .about-box1 h4{
+        font-size: 2.5rem !important;
+    }
+    
+    .about-box3 h4{
+        font-size: 2.4rem !important;
+        font-style: "gilroylight";
+        margin: 0;
+        color:white;
+        /* margin-top: 10%; */
+        margin-left: 10%;
+    }
+    .about-box3 ul{
+        margin-left: 10%;
+    }
+    .about-box3 ul li{
+        /* min-width: 22rem; */
+        width: auto;
+        font-style: "gilroylight";
+        line-height: 8rem;
+        justify-content: space-around;
+        /* transition: all 3s ease-in-out;
+        transition-delay: 2s; */
+    }
+    li{
+        font-size: 3rem !important;
+        line-height: 6rem !important;
+        flex-wrap:wrap;
+        min-width: 3rem;
+    }
+    .about-people1{
+        width:278% !important;
+        height: 70% !important;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .about-people2{
+        width:60% !important;
+        height: 20% !important;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0;
+        /* margin-top: 5%; */
+    }
+    .about-people-icon2{
+        margin-right: 5%;
+        /* margin-left: 2%; */
+        /* opacity: 0.2; */
+    }
+    #chartdiv{
+        width:92%;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+    }
+    #chartdiv1 {
+        width: 108%;
+        overflow: hidden;
+        opacity: .6;
+        z-index:2;
+        position: absolute;
+        margin-left: -10%;
+    }
+    }

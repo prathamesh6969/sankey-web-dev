@@ -1,0 +1,119 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type='text/css' media='all' href="css/style.css">
+    <link rel="stylesheet" type='text/css' media='all' href="css/technology.css">
+    <link rel="stylesheet" type='text/css' media='all' href="css/webslides1.css">
+    <title>Sankey Solutions 1</title>
+  </head>
+  <body>
+    <div id="main">
+        <div class="top-nav">
+            <a href="./index.html"><img src="assets/logo.png" alt="Sankey solutions"></a>
+            <div id="top-nav-content">
+                   <a href="">WRITE TO CEO</a>
+                <div class="mobile-menu-icon"><i class="fa fa-align-justify"></i></div>
+        </div>
+        </div>
+        <div id="technology-header">
+        <h1>Technologies</h1></div>
+        <div class="content2">
+            <div class="left-content">
+              <h3>We worked on 35+ technologies in 6 different domains</h3>
+              <h6 onclick="changeImage(1)">Web</h6>
+              <h6 onclick="changeImage(2)">Mobile</h6>
+              <h6 onclick="changeImage(3)">Analytics and Reporting</h6>
+              <h6 onclick="changeImage(4)">Solution Architecture</h6>
+              <h6 onclick="changeImage(5)">Automation</h6>
+              <h6 onclick="changeImage(6)">Database</h6>
+              <h6 onclick="changeImage(7)">CRM</h6>
+              <!-- <img src="assets/honecomb/Angular_full_color_logo.svg_-490x490.png" id="box1" onclick="changeImage()"> -->
+          </div>
+          <div class="right-content">
+            <img id="box1" src="./assets/technology-web.svg" alt="">
+          </div>
+         
+              </div>
+        <div class="footer animated fadeInUp animation-2x">
+            <div class="connect ">
+            <div class="connect-item "> <a href="https://www.facebook.com/sankeysolutions/?epa=SEARCH_BOX"><i class="fa fa-facebook-square fa-lg"></i></a></div>
+            <div class="connect-item "><a href="https://www.instagram.com/explore/locations/857852710930351/sankey-solutions"><i class="fa fa-instagram fa-lg"></i></a></div>
+            <div class="connect-item "><a href="https://twitter.com/sankeysolutions"><i class="fa fa-twitter-square fa-lg"></i></a></div> 
+            <div class="connect-item "><a href="https://www.linkedin.com/company/sankey-solutions/"><i class="fa fa-linkedin fa-lg"></i></i></a></div> 
+            </div>
+    </div>
+    <div class="right-nav">
+            <div><a href="about_us.html">ABOUT US</a></div>
+            <div><a href="">TEAM</a></div>
+            <div><a href="">SERVICES</a></div>
+            <div><a href="./technology.html">TECHNOLOGIES</a></div>
+            <div><a href="./blogs.html">BLOGS</a></div>
+            <div><a href="">EVENTS</a></div>
+    </div>
+    <div class="left-nav">
+            <div><a href="">CAREER</a></div>
+            <div><a href="">CONTACT US</a></div>
+    </div>
+</div>
+<div class="mobile-menu">
+            <div class="mobile-menu-exit"><i class="fa fa-times-circle fa-lg"></i></div>
+            <div class="mobile-menu-item">
+            <div class="menu-item animation-1x"><a href="./about_us.html">ABOUT US</a></div>
+            <div class="menu-item animation-2x1"><a href="">TEAM</a></div>
+            <div class="menu-item animation-3x"><a href="">SERVICES</a></div>
+            <div class="menu-item animation-4x"><a href="./technology.html">TECHNOLOGIES</a></div>
+            <div class="menu-item animation-5x"><a href="./blogs.html">BLOGS</a></div>
+            <div class="menu-item animation-6x"><a href="">EVENTS</a></div>
+            <div class="menu-item animation-7x"><a href="">CAREER</a></div>
+            <div class="menu-item animation-8x"><a href="">CONTACT US</a></div>
+            </div>
+            <div class="mobile-menu-footer">
+            <div class="connect-item animation-1x" > <a href="https://www.facebook.com/sankeysolutions/?epa=SEARCH_BOX"><i class="fa fa-facebook-square fa-lg"></i></a></div>
+            <div class="connect-item animation-3x"><a href="https://www.instagram.com/explore/locations/857852710930351/sankey-solutions"><i class="fa fa-instagram fa-lg"></i></a></div>
+            <div class="connect-item animation-5x" ><a href="https://www.linkedin.com/company/sankey-solutions/"><i class="fa fa-linkedin fa-lg"></i></i></a></div> 
+            <div class="connect-item animation-7x" ><a href="https://twitter.com/sankeysolutions"><i class="fa fa-twitter-square fa-lg"></i></a></div> 
+            </div>
+</div>
+    <!-- Optional JavaScript -->
+    <script src="js/vivus.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/jquery.homeycombs.js"></script>
+
+    <script>
+
+    //mobile menu
+           $('.mobile-menu-icon').click(function(){
+                $('.mobile-menu').toggleClass('open');
+                $('.menu-item').toggleClass('animated fadeInLeft');
+                $('.connect-item').toggleClass('animated fadeInUpBig');
+        });
+        $(".mobile-menu-exit").click(function(){
+        $('.menu-item').removeClass('animated fadeInLeft ');
+        $('.connect-item').removeClass('animated fadeInUpBig');
+        $('.mobile-menu').removeClass('open');
+        });
+
+        function changeImage(section){
+          $(".right-content").toggleClass("animated fadeOut animation 7x").delay(100).removeClass("animated fadeOut animation 7x").toggleClass("animated fadeIn animation 7x")
+          	
+          // $( ".right-content" ).fadeOut( 300 ).delay( 800 ).fadeIn( 400 );
+          document.getElementById('box1').src = "assets/technology-images/web-" + section + ".png";
+          document.getElementById('box2').src = "assets/technology-images/web-" + section + ".png";
+          document.getElementById('box3').src = "assets/technology-images/web-" + section + ".png";
+          document.getElementById('box4').src = "assets/technology-images/web-" + section + ".png";
+          document.getElementById('box5').src = "assets/technology-imagess/web-" + section + ".png";
+          
+        }
+
+    </script>
+   
+    
+  </body>
+</html>

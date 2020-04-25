@@ -1,0 +1,206 @@
+{
+    "asset": {
+        "copyright": "2019 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 0f6e5499e799b587980bc7fffec23aa1b46a8f6f",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 1158928,
+            "type": "VEC3",
+            "max": [
+                0.0052973502315580849,
+                0.011249810457229615,
+                0.006586059927940369
+            ],
+            "min": [
+                -0.0052973502315580849,
+                0.00008829999569570646,
+                -0.006586109753698111
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 1158928,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 1158928,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 9240096,
+            "type": "SCALAR",
+            "max": [
+                1158927.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 13907136,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 13907136,
+            "byteLength": 13907136,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 27814272,
+            "byteLength": 9271424,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 37085696,
+            "byteLength": 36960384,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 74046080,
+            "uri": "Brain_GLTF_v1_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.0003351311315782368,
+                "yfov": 0.6024156808853149,
+                "zfar": 18.43221092224121,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "basecolor_image_texture",
+            "uri": "Brain_GLTF_v1_images\\basecolor_image_texture.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "roughness_image_texture_metallic_image_texture_1",
+            "uri": "Brain_GLTF_v1_images\\roughness_image_texture_metallic_image_texture_1.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "normal_image_texture",
+            "uri": "Brain_GLTF_v1_images\\normal_image_texture.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "normalTexture": {
+                "index": 2
+            },
+            "name": "Honeycomb Tile 3",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Brain_Model_N3D",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                14.657973289489746,
+                5.168221473693848,
+                7.162737846374512
+            ],
+            "rotation": [
+                -0.038454435765743259,
+                0.5335782766342163,
+                0.024295814335346223,
+                0.8445265889167786
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                0.0,
+                -0.07295446842908859,
+                0.000020683335606008769
+            ],
+            "scale": [
+                827.21142578125,
+                827.21142578125,
+                827.21142578125
+            ],
+            "mesh": 0,
+            "name": "Brain_Model"
+        }
+    ],
+    "samplers": [
+        {},
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "honeycomb_tile::baseColor::sampler",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "roughness_image_texture_metallic_image_texture_1_texture",
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "name": "honeycomb_tile::normal::sampler",
+            "sampler": 2,
+            "source": 2
+        }
+    ],
+    "scene": 0
+}

@@ -1,0 +1,16 @@
+/* chrome >= 28, safari >=9 IE>=12 opera >=14 */
+@supports (-webkit-appearance:none) {
+    .events-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* for IE >=9 */
+@media screen and (min-width:0\0){
+    .events-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+}

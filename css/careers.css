@@ -1,0 +1,2275 @@
+/* chrome >= 28, safari >=9 IE>=12 opera >=14 */
+@supports (-webkit-appearance:none) {
+    
+    body{
+        background-color: black;
+        /* overflow-y: unset; */
+    }
+    .footer{
+        position: fixed !important;
+    }
+    .top-nav{
+        position: fixed !important;
+        width: 100%;
+    }
+    .right-nav{
+        position: fixed !important;
+    }
+    .left-nav{
+        position: fixed !important;
+    }
+    .copyright-text{
+        font-size: 1.5rem !important;
+    }
+    .careers-box{
+        width: 100%;
+        height: auto;
+        padding: 8% 8% 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        /* overflow-y: scroll; */
+    }
+    .careers-header{
+        height: auto;
+        width: 100%;
+        font-family: 'keepcalm';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .careers-header h3{
+        font-size: 10.5rem;
+        color: #707070;
+        opacity: 0.3;
+        line-height: 8.6rem;
+    }
+    .careers-list{
+        width: 80%;
+        height: 100%;
+        /* background-color: aqua; */
+        margin: 2%;
+        margin-bottom: 15vh;
+        /* padding-bottom: 10vw; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .careers-item{
+        width: 100%;
+        height: 35vh;
+        /* background-color: red; */
+        /* margin: 1% 0 0;
+        padding-left: 10%; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .careers-right{
+        display: flex;
+        justify-content: flex-end;
+        width: 90%;
+        height: 35vh;
+        /* background-color: red; */
+        margin: 1% 0 0;
+    }
+    .careers-item-left{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        /* padding: 0 10%; */
+    }
+    .careers-image{
+        width: 260px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        align-self: flex-start;
+        pointer-events: none;
+        position: absolute;
+        z-index: 2;
+    }
+    .careers-image img{
+        width: 80px;
+        height: 80px;
+    }
+    .diamond-box{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        z-index: 1;
+        background-color: #0D0D0D;
+        transform: rotate(45deg);
+        margin-left: 70px;
+        display: flex;
+        align-self: center;
+    } 
+    .careers-name{
+        width: 50%;
+        height: 30vh;
+        /* background-color: orange; */
+        display: flex;
+        justify-content: flex-start;
+        /* align-self: flex-end; */
+        align-items: flex-end;
+        position: absolute;
+        z-index: 2;
+        margin-left: 115px;
+        pointer-events: none;
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 3.5rem;
+        opacity: 0.6;
+    }
+    .connect {
+    background: transparent;
+    }
+    .careers-caption{
+        /* width: 40%; */
+        height: 18vh;
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 3.5rem;
+        position: absolute;
+        z-index: 2;
+        /* margin-left: 150px; */
+        display: flex;
+        align-self: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+        /* pointer-events: none; */
+        display: none;
+    }
+    .careers-caption p{
+        width: 55%;
+        font-family: 'gilroylight';
+        color: white;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        margin: 1% 0;
+    }
+    .careers-caption a{
+        font-family: 'gilroylight';
+        font-size: 1.5rem;
+        color: white; 
+        margin-right: 10px;   
+    }
+    .careers-image-right{
+        width: 250px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        align-self: flex-start;
+        pointer-events: none;
+        position: absolute;
+        z-index: 2;
+    }
+    .careers-image-right img{
+        width: 80px;
+        height: 80px;
+    }
+    .apply-button{
+        width: 40%;
+        cursor: pointer;
+        text-decoration: underline;
+        height: 10vh;
+        line-height: 2.5rem;
+        background-color: transparent;
+    }
+    .apply-button i{
+        font-size: 15px;
+    }
+    .careers-item-right{
+        width: 60%;
+        height: 100%;
+        margin-left: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        /* flex-direction: row-reverse; */
+    }
+    .diamond-box-right{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        z-index: 1;
+        background-color: #0D0D0D;
+        transform: rotate(45deg);
+        margin-right: 70px;
+        display: flex;
+        align-self: center;
+    }
+    .careers-name-right{
+        /* width: 50%; */
+        height: 30vh;
+        /* background-color: orange; */
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        position: absolute;
+        padding-right: 115px;
+        z-index: 2;
+        pointer-events: none;
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 3.5rem;
+        opacity: 0.6;
+    }
+    .careers-caption-right{
+        /* width: 40%; */
+        height: 18vh;
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 3.5rem;
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        align-self: flex-end;        
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: right;
+        /* padding-right: 130px; */ 
+        /* pointer-events: none; */
+        
+        display: none;
+    }
+    .careers-caption-right p{
+        width: auto;
+        font-family: 'gilroylight';
+        color: white;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        margin: 1% 0;
+    }
+    .careers-caption-right a{
+        font-family: 'gilroylight';
+        font-size: 1.5rem;
+        color: white; 
+        margin-right: 10px;   
+    }
+    .apply-button-right{
+        width: 35%;
+        display: flex;
+        justify-content: flex-end;
+        text-align: right;
+        cursor: pointer;
+        /* line-height: 2.5rem; */
+        /* text-decoration: underline; */
+    }
+    .apply-button-right i{
+        font-size: 15px;
+    }
+    .apply-button-right a{
+        margin-right: 10px;
+        text-decoration: underline !important;
+    }
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+       /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgb(255, 255, 255); /* Black w/ opacity */
+        z-index: 3;
+        /* padding-top: 6%; */
+        overflow-y: scroll;
+    }
+    .modal::-webkit-scrollbar{
+        display: none;
+    }
+    .close {
+        position: fixed;
+        top: 90px;
+        left: 50px;
+        color: white;
+        font-weight: bold;
+        transition: 0.3s;
+        background-image: url('../assets/left-arrow.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:25px;
+        height: 25px;
+        margin: 1rem 0;
+        cursor: pointer;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .right-nav{
+        z-index: 1;
+    }
+    .top-nav{
+        background: unset;
+        background-color: #000000;
+    }
+    .footer{
+        pointer-events: none;
+    }
+    .analyst-modal-header{
+        width: 100%;
+        height: 60vh;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .careers-type{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        font-family: 'keepcalm';
+        font-size: 4.0rem;
+        color: white;
+    }
+    .careers-modal-image{
+        width: 100px;
+        height: 100px;
+        margin: 2% 0;
+        display: flex;
+        align-self: center;
+        background-size: contain;
+        background-position:blacker;
+        background-repeat: no-repeat;
+    }
+    .careers-description{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0% 10%;
+    }
+    .careers-description-footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0% 10%;
+    }
+    .job-header{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'keepcalm';
+        font-size: 2.5rem;
+        color: black;
+        margin: 4%;
+    }
+    .job-footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-family: 'keepcalm';
+        font-size: 2.5rem;
+        color: black;
+        padding-bottom: 6vh;
+    }
+    .job-footer p{
+        font-family: 'keepcalm';
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    .job-footer a{
+        font-family: 'keepcalm';
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        color: #03729B;
+        /* color: black; */
+        /* font-weight: bold; */
+    }
+    /* .job-header a{
+        margin: 2%;
+    } */
+    .job-description{
+        width: 100%;
+        height: auto;
+        line-height: 2.5rem;
+        color: black;
+        font-family: 'gilroysemibold';
+        font-size: 1.5rem;
+        padding: 2% 10%;
+    }
+    .job-description h1{
+        font-family: 'keepcalm';
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    .ui-text{
+        display: none;
+    }
+    .careers-caption-mobile{
+        display: none;
+    }
+    #close-icon-developer.scrolled{
+        background-image: url('../assets/careers/black-back-arrow.svg');
+        transition: color 200ms linear;
+    }
+    #close-icon-designer.scrolled{
+        background-image: url('../assets/careers/black-back-arrow.svg');
+        transition: color 200ms linear;
+    }
+    #close-icon-hr.scrolled{
+        background-image: url('../assets/careers/black-back-arrow.svg');
+        transition: color 200ms linear;
+    }
+    .jd-points > li{
+        margin-top: 2%;
+    }
+    @media (max-width:720px) and (orientation:portrait){
+    .top-nav{
+        background: black;
+    }
+    .copyright-text{
+        font-size: 1.1rem !important;
+        background-color: black;
+    }
+    .jd-points > li{
+        margin-top: 3%;
+        width: 90%;
+    }
+    .careers-box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 110px;
+        /* padding: 10%; */
+    }
+    .careers-header{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: flex-end;
+        margin: 0;
+    }
+    .careers-header h3{
+        font-size: 5.5rem !important;
+        line-height: 3.6rem !important;
+    }
+    .careers-list{
+        width: 100%;
+        height: auto !important;
+        margin: 0;
+    }
+    .careers-item{
+        width: 100%;
+        height: 35vh; 
+        margin: 0 !important;
+        padding: 0;
+    }
+    .careers-item-left{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .careers-image{
+        width: 190px;
+        height: 110px;
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        pointer-events: none;
+        position: absolute;
+        z-index: 2;
+    }
+    .careers-image img{
+        width: 80px;
+        height: 80px;
+    }
+    .diamond-box{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        z-index: 1;
+        background-color: #0D0D0D;
+        transform: rotate(45deg);
+        margin-left: 30px;    
+    }
+    .careers-name{
+        width: 60%;
+        height: 10vh;
+        display: flex;
+        align-items: flex-start;
+        align-self: flex-end;
+        position: absolute;
+        z-index: 2;
+        margin-left: 80px !important;
+        pointer-events: none;
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 2.5rem;
+        opacity: 0.6;    
+    }
+    .careers-caption{
+        width: 80%;
+        /* height: 40vh; */
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 2rem;
+        position: absolute;
+        z-index: 2;
+        /* margin-top: 40px !important; */
+        padding-left: 90px !important;
+        display: flex;
+        align-self: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+        /* pointer-events: none; */
+        display: none;
+    }
+    .careers-caption p{
+        width: 100%;
+        font-family: 'gilroylight';
+        color: white;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        margin:1% 0;
+    }
+    .careers-caption a{
+        font-family: 'gilroylight';
+        font-size: 1.2rem;
+        color: white; 
+        margin-right: 10px;   
+    }
+    .apply-button{
+        width: 60%;
+        height: 5vh;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .apply-button i{
+        font-size: 12px;
+    }
+    .careers-right{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 35vh;
+        /* background-color: red; */
+        margin: 0 !important;
+    }
+    .careers-item-right{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        margin: 0px;
+    }
+    .careers-image-right{
+        width: 190px;
+        height: 110px;
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        pointer-events: none;
+        position: absolute;
+        z-index: 2;
+    }
+    .careers-image-right img{
+        width: 80px;
+        height: 80px;
+    }
+    .diamond-box-right{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        z-index: 1;
+        background-color: #0D0D0D;
+        transform: rotate(45deg);
+        margin-left: 30px;
+    }
+    .careers-name-right{
+        width: 60%;
+        height: 10vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-self: flex-end;
+        position: absolute;
+        z-index: 2;
+        margin-left: 80px !important;
+        pointer-events: none;
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 2.5rem;
+        opacity: 0.6;
+        padding-right: 0px;
+    }
+    .careers-caption-right{
+        width: 50%;
+        /* height: 40vh; */
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 2rem;
+        position: absolute;
+        z-index: 2;
+        margin-left: 90px !important;
+        /* margin-top: 45px !important; */
+        display: flex;
+        align-self: flex-end;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0 !important;
+        text-align: left;
+        /* pointer-events: none; */
+        display: none;
+    }
+    .careers-caption-right p{
+        /* width: 85%;
+        font-family: 'gilroylight';
+        color: white;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        display: flex;
+        justify-content: flex-end;
+        margin: 1% 0; */
+        display: none;
+    }
+    .careers-caption-right a{
+        font-family: 'gilroylight';
+        font-size: 1.2rem;
+        color: white; 
+        margin-right: 10px;   
+    }
+    .apply-button-right{
+        width: 60%;
+        cursor: pointer;
+        display: flex;
+        justify-content: flex-start;
+        text-decoration: unset;
+    }
+    .apply-button-right i{
+        font-size: 12px;
+    }
+    .apply-button-right a{
+        margin-right: 10px;
+        text-decoration: underline !important;
+    }
+    .careers-caption-right .ui-text{
+        width: 100%;
+        font-family: 'gilroylight';
+        color: white;
+        font-size: 1.2rem;
+        line-height: 2.0rem;
+        margin: 3% 0;
+        display: flex;
+    }
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+       /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgb(255, 255, 255); /* Black w/ opacity */
+        z-index: 3;
+        /* padding-top: 6%; */
+        overflow-y: scroll;
+      }
+    .close {
+        position: fixed;
+        /* top: 70px; */
+        left: 20px;
+        color: white;
+        /* font-size: 40px; */
+        font-weight: bold;
+        transition: 0.3s;
+        z-index: 1;
+        background-image: url('../assets/left-arrow.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:25px;
+        height: 25px;
+        /* margin: 1.0rem 0; */
+        cursor: pointer;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .analyst-modal-header{
+        width: 100%;
+        height: 30rem;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .careers-type{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        font-family: 'keepcalm';
+        font-size: 2.0rem;
+        color: white;
+    }
+    .careers-modal-image{
+        width: 80px;
+        height: 80px;
+        margin: 4% 0;
+        display: flex;
+        align-self: center;
+        background-size: contain;
+        background-position:blacker;
+        background-repeat: no-repeat;
+    }
+    .careers-description{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0% 10% !important;
+    }
+    .careers-description-footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0% !important;
+    }
+    .job-footer{
+        padding: 5%;
+    }
+    .job-footer p{
+        line-height: 2.2rem !important;
+    }
+    .job-header{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'keepcalm';
+        font-size: 1.8rem;
+        color: black;
+        margin: 10%;
+    }
+    .job-header a{
+        margin: 2%;
+    }
+    .job-description{
+        width: 100%;
+        height: auto;
+        line-height: 2.5rem;
+        color: black;
+        font-family: 'gilroysemibold';
+        font-size: 1.5rem;
+        padding: 5% !important;
+    }
+    }
+    @media only screen and (orientation:landscape)
+    and (min-device-width: 319px) 
+    and (max-device-width: 1024px){
+    .top-nav{
+        background: black;
+    }
+    .careers-box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 8%;
+        padding: 12%;
+    }
+    .careers-header{
+        width: 100%;
+        height: 10vh;
+        /* padding-top: 5%; */
+        display: flex;
+        align-items: flex-end;
+        z-index: 1;
+    }
+    .careers-header h3{
+        font-size: 5.5rem !important;
+        line-height: 2.5rem !important;
+    }
+    .careers-list{
+        width: 100%;
+        height: 60vh !important;
+        margin: 0 !important;
+    }
+    .careers-item{
+        width: 100%;
+        height: 55vh; 
+        margin: 4% 0 !important;
+    }
+    .careers-item-left{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .careers-image{
+        width: 120px;
+        height: 80px;
+        display: flex;
+        align-self: flex-end;
+        position: absolute;
+        pointer-events: none;
+        position: absolute;
+        z-index: 2;
+    }
+    .careers-image img{
+        width: 50px;
+        height: 50px;
+    }
+    .diamond-box{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        z-index: 1;
+        background-color: #0D0D0D;
+        transform: rotate(45deg);
+        margin-left: 30px;    
+    }
+    .careers-name{
+        width: 60%;
+        height: 0vh;
+        display: flex;
+        align-items: flex-start;
+        align-self: flex-end;
+        position: absolute;
+        z-index: 2;
+        margin-left: 55px !important;
+        pointer-events: none;
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 2.0rem;
+        opacity: 0.6;    
+    }
+    .careers-caption{
+        width: 50%;
+        height: 28vh;
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 2rem;
+        position: absolute;
+        z-index: 2;
+        margin-left: 70px !important;
+        margin-top: 90px !important;
+        padding: 0 !important;
+        display: flex;
+        align-self: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+        /* pointer-events: none; */
+        display: none;
+    }
+    .careers-caption p{
+        width: 80%;
+        font-family: 'gilroylight';
+        color: white;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin: 1% 0;
+    }
+    .careers-caption a{
+        font-family: 'gilroylight';
+        font-size: 1.2rem;
+        color: white; 
+        margin-right: 10px;   
+    }
+    .apply-button{
+        width: 60%;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .apply-button i{
+        font-size: 12px;
+    }
+    .careers-right{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 55vh;
+        /* background-color: red; */
+        margin: 4% 0 !important;
+    }
+    .careers-item-right{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    .careers-image-right{
+        width: 190px;
+        height: 80px;
+        display: flex;
+        align-self: flex-end;
+        position: absolute;
+        pointer-events: none;
+        position: absolute;
+        z-index: 2;
+    }
+    .careers-image-right img{
+        width: 50px;
+        height: 50px;
+    }
+    .diamond-box-right{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        z-index: 1;
+        background-color: #0D0D0D;
+        transform: rotate(45deg);
+        margin-left: 30px;
+    }
+    .careers-name-right{
+        width: 335px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        /* align-items: flex-start; */
+        align-self: flex-start;
+        position: absolute;
+        z-index: 2;
+        /* margin-left: 80px !important; */
+        pointer-events: none;
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 2.0rem;
+        padding: 0;
+        opacity: 0.6;
+    }
+    .careers-caption-right{
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 2.0rem;
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        align-self: flex-end;
+        line-height: 1.2rem;
+        text-align: right;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding-right: 100px !important;
+        margin-top: 90px !important;
+        width: 90%;
+        /* pointer-events: none; */
+        height: 28vh;
+        display: none;
+    }
+    .careers-caption-right p{
+        /* width: 85%;
+        font-family: 'gilroylight';
+        color: white;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        display: flex;
+        justify-content: flex-end;
+        margin: 1% 0; */
+        display: none;
+    }
+    .careers-caption-right a{
+        font-family: 'gilroylight';
+        font-size: 1.2rem;
+        color: white; 
+        margin-right: 10px;   
+    }
+    .apply-button-right{
+        width: 50%;
+        cursor: pointer;
+        text-decoration: unset;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .apply-button-right i{
+        font-size: 12px;
+    }
+    .apply-button-right a{
+        margin-right: 10px;
+        text-decoration: underline !important;
+    }
+    .careers-caption-right .ui-text{
+        width: 40%;
+        font-family: 'gilroylight';
+        color: white;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin: 1% 0;
+        display: flex;
+    }
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgb(255, 255, 255); /* Black w/ opacity */
+        z-index: 3;
+        /* padding-top: 6%; */
+        overflow-y: scroll;
+        }
+    .close {
+        position: fixed;
+        top: 50px;
+        right: 35px;
+        color: white;
+        font-weight: bold;
+        transition: 0.3s;
+        z-index: 1;
+        background-image: url('../assets/left-arrow.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:25px;
+        height: 25px;
+        margin: 1rem 0;
+        cursor: pointer;
+    }
+    .mobile-menu-exit {
+        display: flex;
+        justify-content: flex-end;
+        /* padding-top: 1.8%; */
+        padding-right: 2.5%;
+        padding-top: 15vh;
+    }
+    .mobile-menu-item {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: flex-start;
+        line-height: 0.6rem;
+        font-size: 1.8rem;
+        font-family: 'gilroysemibold' !important;
+        transition: all 3s ease-in-out;
+        transition-delay: 1s;
+        overflow-y: scroll;
+    }
+    .connect-item a i {
+        font-size: 2.8rem;
+    }
+    .mobile-menu-footer {
+        height: 10vh;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 0.5%;
+        padding-top: 5vh;
+        padding-bottom: 17.9vh;
+    }
+    .copyright-text{
+        color: white;
+        font-family: 'gilroylight';
+        font-size: 1.1rem !important;
+        opacity: 0.5;
+        margin-left: 0;
+        text-align: center;
+        background-color: black;
+    }
+    .social-icons{
+        display: flex;
+        width: 100%;
+    }
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .analyst-modal-header{
+        width: 100%;
+        height: 70vh;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .careers-type{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        font-family: 'keepcalm';
+        font-size: 2.0rem;
+        color: white;
+        z-index: 2;
+    }
+    .careers-modal-image{
+        width: 60px;
+        height: 60px;
+        margin: 2% 0;
+        display: flex;
+        align-self: center;
+        background-size: contain;
+        background-position:blacker;
+        background-repeat: no-repeat;
+    }
+    .careers-description{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5% !important;
+    }
+    .job-header{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'keepcalm';
+        font-size: 1.8rem;
+        color: black;
+        margin: 4%;
+    }
+    .job-header a{
+        margin: 2%;
+    }
+    .job-description{
+        width: 100%;
+        height: auto;
+        line-height: 2.5rem;
+        color: black;
+        font-family: 'gilroysemibold';
+        font-size: 1.5rem;
+        padding: 2% 10%;
+    }   
+    }
+    }
+    
+    /* --------------------------------------------------------------------------- */
+    /* --------------------------------------------------------------------------- */
+    
+    /* for IE >=9 */
+    @media screen and (min-width:0\0) {
+        
+    body{
+        background-color: black;
+        overflow-y: unset !important;
+    }
+    .footer{
+        position: fixed !important;
+    }
+    .top-nav{
+        position: fixed !important;
+        width: 100%;
+    }
+    .right-nav{
+        position: fixed !important;
+    }
+    .left-nav{
+        position: fixed !important;
+    }
+    .copyright-text{
+        font-size: 1.5rem !important;
+    }
+    .careers-box{
+        width: 100%;
+        height: 100%;
+        padding: 8%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        /* overflow-y: scroll; */
+    }
+    .careers-header{
+        height: auto;
+        width: 100%;
+        font-family: 'keepcalm';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .careers-header h3{
+        font-size: 10.5rem;
+        color: #707070;
+        opacity: 0.3;
+    }
+    .careers-list{
+        width: 100%;
+        /* height: 80vh; */
+        /* background-color: aqua; */
+        margin: 5%;
+    }
+    .careers-item{
+        width: 100%;
+        height: 35vh;
+        /* background-color: red; */
+        margin: 2% 0;
+        padding-left: 10%;
+    }
+    .careers-right{
+        display: flex;
+        justify-content: flex-end;
+        width: 90%;
+        height: 35vh;
+        /* background-color: red; */
+        margin: 2% 0;
+    }
+    .careers-item-left{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-self: flex-start;
+        /* align-items: center; */
+        /* padding: 0 10%; */
+    }
+    .careers-image{
+        width: 260px;
+        height: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        align-self: flex-start;
+        pointer-events: none;
+        position: absolute;
+        z-index: 2;
+    }
+    .careers-image img{
+        width: 80px;
+        height: 80px;
+    }
+    .diamond-box{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        z-index: 1;
+        background-color: #0D0D0D;
+        transform: rotate(45deg);
+        margin-left: 70px;
+    } 
+    .careers-name{
+        width: 50%;
+        height: 20vh;
+        left:16%;
+        /* background-color: orange; */
+        display: flex;
+        justify-content: flex-start;
+        /* align-self: flex-end; */
+        align-items: flex-end;
+        position: absolute;
+        z-index: 2;
+        margin-left: 115px;
+        pointer-events: none;
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 3.5rem;
+        opacity: 0.6;
+    }
+    .connect {
+    background: transparent;
+    }
+    .careers-caption{
+        width: 50%;
+        height: 22vh;
+        font-family: 'keepcalm';
+        left: 13.5%;
+        color: white;
+        font-size: 3.5rem;
+        position: absolute;
+        z-index: 2;
+        margin-left: 50px !important;
+        margin-top: 80px !important;
+        display: flex;
+        align-self: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+        /* pointer-events: none; */
+        display: none;
+    }
+    .careers-caption p{
+        width: 50%;
+        font-family: 'gilroylight';
+        color: white;
+        font-size: 1.5rem;
+        line-height: 2.0rem;
+        margin: 1% 0;
+    }
+    .careers-caption a{
+        font-family: 'gilroylight';
+        font-size: 1.5rem;
+        color: white; 
+        margin-right: 10px;   
+    }
+    .careers-image-right{
+        width: 250px;
+        height: 0px;
+        right: 16%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        align-self: flex-start;
+        pointer-events: none;
+        position: absolute;
+        z-index: 2;
+    }
+    .careers-image-right img{
+        width: 80px;
+        height: 80px;
+    }
+    .apply-button{
+        width: 20%;
+        cursor: pointer;
+        text-decoration: underline;
+        height: 10vh;
+    }
+    .apply-button i{
+        font-size: 15px;
+    }
+    .careers-item-right{
+        width: 89%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        /* align-items: center; */
+        /* flex-direction: row-reverse; */
+    }
+    .diamond-box-right{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        z-index: 1;
+        background-color: #0D0D0D;
+        transform: rotate(45deg);
+        margin-right: 70px;
+    }
+    .careers-name-right{
+        width: 390px;
+        height: 130px;
+        right: 16%;
+        /* background-color: orange; */
+        display: flex;
+        /* align-self: flex-end; */
+        justify-content: flex-start;
+        /* align-self: flex-end; */
+        align-items: flex-end;
+        position: absolute;
+        z-index: 2;
+        /* margin-left: 130px; */
+        pointer-events: none;
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 3.5rem;
+        opacity: 0.6;
+    }
+    .careers-caption-right{
+        /* width: 60%; */
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 3.5rem;
+        position: absolute;
+        right: 14.5%;
+        margin-top: 40px !important;
+        z-index: 2;
+        display: flex;
+        align-self: flex-end;
+        text-align: right;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding-right: 160px !important;
+        /* pointer-events: none; */
+        height: 25vh;
+        display: none;
+    }
+    .careers-caption-right p{
+        width: auto;
+        font-family: 'gilroylight';
+        color: white;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        margin: 1% 0;
+    }
+    .careers-caption-right a{
+        font-family: 'gilroylight';
+        font-size: 1.5rem;
+        color: white; 
+        margin-right: 10px;   
+    }
+    .apply-button-right{
+        width: 35%;
+        display: flex;
+        justify-content: flex-end;
+        text-align: right;
+        cursor: pointer;
+        /* text-decoration: underline; */
+    }
+    .apply-button-right i{
+        font-size: 15px;
+    }
+    .apply-button-right a{
+        margin-right: 10px;
+        text-decoration: underline !important;
+    }
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+       /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgb(255, 255, 255); /* Black w/ opacity */
+        z-index: 3;
+        /* padding-top: 6%; */
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+      }
+      .close {
+        position: fixed;
+        top: 65px;
+        left: 50px;
+        color: white;
+        font-weight: bold;
+        transition: 0.3s;
+        background-image: url('../assets/left-arrow.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:25px;
+        height: 25px;
+        margin: 1rem 0;
+        cursor: pointer;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .right-nav{
+        z-index: 1;
+    }
+    .top-nav{
+        background: unset;
+        background-color: #000000;
+    }
+    .footer{
+        pointer-events: none;
+    }
+    .analyst-modal-header{
+        width: 100%;
+        height: 60vh;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .careers-type{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        font-family: 'keepcalm';
+        font-size: 4.0rem;
+        color: white;
+    }
+    .careers-modal-image{
+        width: 100px;
+        height: 100px;
+        margin: 2% 0;
+        display: flex;
+        align-self: center;
+        background-size: contain;
+        background-position:blacker;
+        background-repeat: no-repeat;
+    }
+    .careers-description{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0% 10%;
+    }
+    .job-header{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'keepcalm';
+        font-size: 2.5rem;
+        color: black;
+        margin: 4%;
+    }
+    .job-footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-family: 'keepcalm';
+        font-size: 2.5rem;
+        color: black;
+        padding-bottom: 6vh;
+    }
+    .job-footer p{
+        font-family: 'keepcalm';
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    .job-footer a{
+        font-family: 'keepcalm';
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        color: #03729B;
+        /* color: black; */
+        /* font-weight: bold; */
+    }
+    /* .job-header a{
+        margin: 2%;
+    } */
+    .job-description{
+        width: 100%;
+        height: auto;
+        line-height: 2.5rem;
+        color: black;
+        font-family: 'gilroysemibold';
+        font-size: 1.5rem;
+        padding: 0% 10%;
+    }
+    .job-description h1{
+        font-family: 'keepcalm';
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    .ui-text{
+        display: none;
+    }
+    .careers-caption-mobile{
+        display: none;
+    }
+    #close-icon .scrolled{
+        background-color: black;
+        /* transition: color 200ms linear; */
+    }
+    @media (max-width:720px) and (orientation:portrait){
+    .top-nav{
+        background: black;
+    }
+    .careers-box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15%;
+        /* padding: 10%; */
+    }
+    .careers-header{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: flex-end;
+    }
+    .careers-header h3{
+        font-size: 5.5rem !important;
+    }
+    .careers-list{
+        width: 100%;
+        height: 60vh !important;
+    }
+    .careers-item{
+        width: 100%;
+        height: 35vh; 
+        margin: 10% 0 !important;
+        padding: 0;
+    }
+    .careers-item-left{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .careers-image{
+        width: 190px;
+        height: 100px;
+        display: flex;
+        align-self: flex-start;
+        position: absolute;
+        pointer-events: none;
+        position: absolute;
+        z-index: 2;
+    }
+    .careers-image img{
+        width: 80px;
+        height: 80px;
+    }
+    .diamond-box{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        z-index: 1;
+        background-color: #0D0D0D;
+        transform: rotate(45deg);
+        margin-left: 30px;    
+    }
+    .careers-name{
+        width: 60%;
+        height: 10vh;
+        display: flex;
+        align-items: flex-start;
+        align-self: flex-end;
+        position: absolute;
+        z-index: 2;
+        margin-left: 80px !important;
+        pointer-events: none;
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 2.5rem;
+        opacity: 0.6;    
+    }
+    .careers-caption{
+        width: 50%;
+        /* height: 40vh; */
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 2rem;
+        position: absolute;
+        z-index: 2;
+        margin-left: 120px;
+        display: flex;
+        align-self: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+        /* pointer-events: none; */
+        display: none;
+    }
+    .careers-caption p{
+        width: 100%;
+        font-family: 'gilroylight';
+        color: white;
+        font-size: 1.2rem;
+        line-height: 2.0rem;
+        margin: 3% 0;
+    }
+    .careers-caption a{
+        font-family: 'gilroylight';
+        font-size: 1.2rem;
+        color: white; 
+        margin-right: 10px;   
+    }
+    .apply-button{
+        width: 60%;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .apply-button i{
+        font-size: 12px;
+    }
+    .careers-right{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 35vh;
+        /* background-color: red; */
+        margin: 10% 0 !important;
+    }
+    .careers-item-right{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    .careers-image-right{
+        width: 190px;
+        height: 100px;
+        display: flex;
+        align-self: flex-start;
+        position: absolute;
+        pointer-events: none;
+        position: absolute;
+        z-index: 2;
+    }
+    .careers-image-right img{
+        width: 80px;
+        height: 80px;
+    }
+    .diamond-box-right{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        z-index: 1;
+        background-color: #0D0D0D;
+        transform: rotate(45deg);
+        margin-left: 30px;
+    }
+    .careers-name-right{
+        width: 60%;
+        height: 10vh;
+        display: flex;
+        align-items: flex-start;
+        align-self: flex-end;
+        position: absolute;
+        z-index: 2;
+        margin-left: 80px !important;
+        pointer-events: none;
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 2.5rem;
+        opacity: 0.6;
+    }
+    .careers-caption-right{
+        width: 50%;
+        /* height: 40vh; */
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 2rem;
+        position: absolute;
+        z-index: 2;
+        margin-left: 120px !important;
+        margin-top: 10px !important;
+        display: flex;
+        align-self: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 0 !important;
+        text-align: left;
+        /* pointer-events: none; */
+        display: none;
+    }
+    .careers-caption-right p{
+        /* width: 85%;
+        font-family: 'gilroylight';
+        color: white;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        display: flex;
+        justify-content: flex-end;
+        margin: 1% 0; */
+        display: none;
+    }
+    .careers-caption-right a{
+        font-family: 'gilroylight';
+        font-size: 1.2rem;
+        color: white; 
+        margin-right: 10px;   
+    }
+    .apply-button-right{
+        width: 60%;
+        cursor: pointer;
+        display: flex;
+        justify-content: flex-start;
+        text-decoration: unset;
+    }
+    .apply-button-right i{
+        font-size: 12px;
+    }
+    .apply-button-right a{
+        margin-right: 10px;
+        text-decoration: underline !important;
+    }
+    .careers-caption-right .ui-text{
+        width: 100%;
+        font-family: 'gilroylight';
+        color: white;
+        font-size: 1.2rem;
+        line-height: 2.0rem;
+        margin: 3% 0;
+        display: flex;
+    }
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+       /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgb(255, 255, 255); /* Black w/ opacity */
+        z-index: 3;
+        /* padding-top: 6%; */
+        overflow-y: scroll;
+      }
+    .close {
+        position: fixed;
+        top: 70px;
+        left: 20px;
+        color: white;
+        /* font-size: 40px; */
+        font-weight: bold;
+        transition: 0.3s;
+        z-index: 1;
+        background-image: url('../assets/left-arrow.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:25px;
+        height: 25px;
+        margin: 1rem 0;
+        cursor: pointer;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .analyst-modal-header{
+        width: 100%;
+        height: 30rem;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .careers-type{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        font-family: 'keepcalm';
+        font-size: 2.0rem;
+        color: white;
+    }
+    .careers-modal-image{
+        width: 80px;
+        height: 80px;
+        margin: 4% 0;
+        display: flex;
+        align-self: center;
+        background-size: contain;
+        background-position:blacker;
+        background-repeat: no-repeat;
+    }
+    .careers-description{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0% !important;
+    }
+    .job-header{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'keepcalm';
+        font-size: 1.8rem;
+        color: black;
+        margin: 4%;
+    }
+    .job-header a{
+        margin: 2%;
+    }
+    .job-description{
+        width: 100%;
+        height: auto;
+        line-height: 2.5rem;
+        color: black;
+        font-family: 'gilroysemibold';
+        font-size: 1.5rem;
+        padding: 0% 10%;
+    }
+    }
+    @media only screen and (orientation:landscape)
+    and (min-device-width: 319px) 
+    and (max-device-width: 1024px){
+    .top-nav{
+        background: black;
+    }
+    .careers-box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 8%;
+        padding: 12%;
+    }
+    .careers-header{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: flex-end;
+    }
+    .careers-header h3{
+        font-size: 5.5rem !important;
+    }
+    .careers-list{
+        width: 100%;
+        height: 60vh !important;
+        margin: 0 !important;
+    }
+    .careers-item{
+        width: 100%;
+        height: 55vh; 
+        margin: 4% 0 !important;
+    }
+    .careers-item-left{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .careers-image{
+        width: 190px;
+        height: 100px;
+        display: flex;
+        align-self: flex-start;
+        position: absolute;
+        pointer-events: none;
+        position: absolute;
+        z-index: 2;
+    }
+    .careers-image img{
+        width: 80px;
+        height: 80px;
+    }
+    .diamond-box{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        z-index: 1;
+        background-color: #0D0D0D;
+        transform: rotate(45deg);
+        margin-left: 30px;    
+    }
+    .careers-name{
+        width: 60%;
+        height: 10vh;
+        display: flex;
+        align-items: flex-start;
+        align-self: flex-end;
+        position: absolute;
+        z-index: 2;
+        margin-left: 80px !important;
+        pointer-events: none;
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 2.5rem;
+        opacity: 0.6;    
+    }
+    .careers-caption{
+        width: 50%;
+        /* height: 40vh; */
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 2rem;
+        position: absolute;
+        z-index: 2;
+        margin-left: 120px;
+        display: flex;
+        align-self: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+        /* pointer-events: none; */
+        display: none;
+    }
+    .careers-caption p{
+        width: 100%;
+        font-family: 'gilroylight';
+        color: white;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        margin: 2% 0;
+    }
+    .careers-caption a{
+        font-family: 'gilroylight';
+        font-size: 1.2rem;
+        color: white; 
+        margin-right: 10px;   
+    }
+    .apply-button{
+        width: 60%;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .apply-button i{
+        font-size: 15px;
+    }
+    .careers-right{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 55vh;
+        /* background-color: red; */
+        margin: 4% 0 !important;
+    }
+    .careers-item-right{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    .careers-image-right{
+        width: 190px;
+        height: 100px;
+        display: flex;
+        align-self: flex-start;
+        position: absolute;
+        pointer-events: none;
+        position: absolute;
+        z-index: 2;
+    }
+    .careers-image-right img{
+        width: 80px;
+        height: 80px;
+    }
+    .diamond-box-right{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        z-index: 1;
+        background-color: #0D0D0D;
+        transform: rotate(45deg);
+        margin-left: 30px;
+    }
+    .careers-name-right{
+        width: 60%;
+        height: 10vh;
+        display: flex;
+        align-items: flex-start;
+        align-self: flex-end;
+        position: absolute;
+        z-index: 2;
+        margin-left: 80px !important;
+        pointer-events: none;
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 2.5rem;
+        opacity: 0.6;
+    }
+    .careers-caption-right{
+        width: 50%;
+        /* height: 40vh; */
+        font-family: 'keepcalm';
+        color: white;
+        font-size: 2rem;
+        position: absolute;
+        z-index: 2;
+        margin-left: 120px !important;
+        margin-top: 10px !important;
+        display: flex;
+        align-self: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 0 !important;
+        text-align: left;
+        /* pointer-events: none; */
+        display: none;
+    }
+    .careers-caption-right p{
+        /* width: 85%;
+        font-family: 'gilroylight';
+        color: white;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        display: flex;
+        justify-content: flex-end;
+        margin: 1% 0; */
+        display: none;
+    }
+    .careers-caption-right a{
+        font-family: 'gilroylight';
+        font-size: 1.2rem;
+        color: white; 
+        margin-right: 10px;   
+    }
+    .apply-button-right{
+        width: 50%;
+        cursor: pointer;
+        text-decoration: unset;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .apply-button-right i{
+        font-size: 12px;
+    }
+    .apply-button-right a{
+        margin-right: 10px;
+        text-decoration: underline !important;
+    }
+    .careers-caption-right .ui-text{
+        width: 100%;
+        font-family: 'gilroylight';
+        color: white;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        margin: 2% 0;
+        display: flex;
+    }
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgb(255, 255, 255); /* Black w/ opacity */
+        z-index: 3;
+        /* padding-top: 6%; */
+        overflow-y: scroll;
+        }
+    .close {
+        position: fixed;
+        top: 50px;
+        right: 35px;
+        color: white;
+        font-weight: bold;
+        transition: 0.3s;
+        z-index: 1;
+        background-image: url('../assets/left-arrow.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:25px;
+        height: 25px;
+        margin: 1rem 0;
+        cursor: pointer;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .analyst-modal-header{
+        width: 100%;
+        height: 70vh;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .careers-type{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        font-family: 'keepcalm';
+        font-size: 2.0rem;
+        color: white;
+    }
+    .careers-modal-image{
+        width: 80px;
+        height: 80px;
+        margin: 2% 0;
+        display: flex;
+        align-self: center;
+        background-size: contain;
+        background-position:blacker;
+        background-repeat: no-repeat;
+    }
+    .careers-description{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0% !important;
+    }
+    .job-header{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'keepcalm';
+        font-size: 1.8rem;
+        color: black;
+        margin: 4%;
+    }
+    .job-header a{
+        margin: 2%;
+    }
+    .job-description{
+        width: 100%;
+        height: auto;
+        line-height: 2.5rem;
+        color: black;
+        font-family: 'gilroysemibold';
+        font-size: 1.5rem;
+        padding: 0% 10%;
+    }   
+    }
+    }

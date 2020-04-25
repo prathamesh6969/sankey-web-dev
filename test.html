@@ -1,0 +1,195 @@
+<style>
+   body { background-color: black; color: grey; }
+#chartdiv2 {
+  width: 80%;
+  height: 100%;
+  overflow: hidden;
+  margin-left: 10%;
+  /* margin-top:50%; */
+  opacity: .6;
+}
+
+.map-marker {
+   
+    margin-top: -8px;
+    box-sizing: border-box;
+}
+.map-marker.map-clickable {
+    cursor: pointer;
+}
+.pulse {
+    width: 10px;
+    height: 10px;
+    border: 5px solid #f7f14c;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #716f42;
+    z-index: 10;
+    position: absolute;
+    box-sizing: border-box;
+}
+.map-marker .dot {
+    border: 10px solid #fff601;
+    background: transparent;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    height: 50px;
+    width: 50px;
+    -webkit-animation: pulse 3s ease-out;
+    -moz-animation: pulse 3s ease-out;
+    animation: pulse 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: 1;
+    opacity: 0;
+    box-sizing: border-box;
+}
+@-moz-keyframes pulse {
+   0% {
+      -moz-transform: scale(0);
+      opacity: 0.0;
+   }
+   25% {
+      -moz-transform: scale(0);
+      opacity: 0.1;
+   }
+   50% {
+      -moz-transform: scale(0.1);
+      opacity: 0.3;
+   }
+   75% {
+      -moz-transform: scale(0.5);
+      opacity: 0.5;
+   }
+   100% {
+      -moz-transform: scale(1);
+      opacity: 0.0;
+   }
+  }
+  @-webkit-keyframes pulse {
+   0% {
+      -webkit-transform: scale(0);
+      opacity: 0.0;
+   }
+   25% {
+      -webkit-transform: scale(0);
+      opacity: 0.1;
+   }
+   50% {
+      -webkit-transform: scale(0.1);
+      opacity: 0.3;
+   }
+   75% {
+      -webkit-transform: scale(0.5);
+      opacity: 0.5;
+   }
+   100% {
+      -webkit-transform: scale(1);
+      opacity: 0.0;
+   } 
+ }
+
+</style>
+ 
+<!-- Resources -->
+<script src="https://www.amcharts.com/lib/4/core.js"></script>
+<script src="https://www.amcharts.com/lib/4/maps.js"></script>
+<script src="https://www.amcharts.com/lib/4/geodata/worldLow.js"></script>
+<!-- <script src="https://www.amcharts.com/lib/4/geodata/indiaHigh.js"></script> -->
+<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+<script src="js/map1.js"></script>
+<!-- Saving chart as png, jpg, svg -->
+<script src="amcharts/exporting/amexport.js" type="text/javascript"></script>
+<script src="amcharts/exporting/canvg.js" type="text/javascript"></script>
+<script src="amcharts/exporting/rgbcolor.js" type="text/javascript"></script>
+<script src="amcharts/exporting/filesaver.js" type="text/javascript"></script>
+<!-- Chart code -->
+<script>
+
+am4core.ready(function() {
+// Themes begin
+am4core.useTheme(am4themes_animated);
+// Themes end
+
+// Create map instance
+var chart3 = am4core.create("chartdiv2", am4maps.MapChart);
+
+// Set map definition
+chart3.geodata = am4geodata_worldLow;
+
+// Set projection
+chart3.projection = new am4maps.projections.Miller();
+
+// Create map polygon series
+var polygonSeries3 = chart3.series.push(new am4maps.MapPolygonSeries());
+
+// Exclude Antartica
+polygonSeries3.exclude = ["AQ"];
+
+// Make map load polygon (like country names) data from GeoJSON
+polygonSeries3.useGeodata = true;
+
+// Configure series
+var polygonTemplate3 = polygonSeries3.mapPolygons.template;
+// polygonTemplate.tooltipText = "{name}";
+polygonTemplate3.fill = chart3.colors.getIndex(0).lighten(-1);
+
+// add events to recalculate map position when the map is moved or zoomed
+chart3.events.on( "ready", updateCustomMarkers );
+chart3.events.on( "mappositionchanged", updateCustomMarkers );
+
+// this function will take current images on the map and create HTML elements for them
+function updateCustomMarkers( event ) {
+  
+  // go through all of the images
+  imageSeries.mapImages.each(function(image) {
+    // check if it has corresponding HTML element
+    if (!image.dummyData || !image.dummyData.externalElement) {
+      // create onex
+      image.dummyData = {
+        externalElement: createCustomMarker(image)
+      };
+    }
+
+    // reposition the element accoridng to coordinates
+    var xy = chart.geoPointToSVG( { longitude: image.longitude, latitude: image.latitude } );
+    image.dummyData.externalElement.style.top = xy.y + 'px';
+    image.dummyData.externalElement.style.left = xy.x + 'px';
+  });
+
+}
+
+// $type.Optional<color>
+// this function creates and returns a new marker element
+function createCustomMarker( image ) {
+  
+  var chart3 = image.dataItem.component.chart;
+
+  // create holder
+  var holder = document.createElement( 'div' );
+  holder.className = 'map-marker';
+  holder.title = image.dataItem.dataContext.title;
+  holder.style.position = 'absolute';
+
+  // append the marker to the map container
+  chart3.svgContainer.htmlElement.appendChild( holder );
+
+  return holder;
+}
+
+//disable moving of map
+chart3.seriesContainer.draggable = false;
+chart3.seriesContainer.resizable = false;
+chart3.maxZoomLevel = 1;
+
+}); // end am4core.ready()
+</script>
+
+<!-- HTML -->
+<div id="chartdiv2"></div>

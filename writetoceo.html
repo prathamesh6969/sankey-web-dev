@@ -1,0 +1,235 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Sankey Solutions :  World's First Technology Services Company Designed As An Innovation Lab">
+	<meta name="keywords" content="Sankey Solutions, sankey, Sankey, solutions, Solutions, technology solutions, technologies, management, gep, innovation, IT, Computer Science">
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <link rel="stylesheet" type='text/css' media='all' href="css/style.css">
+    <link rel="stylesheet" type='text/css' media='all' href="css/webslides1.css">
+    <link rel="stylesheet" type='text/css' media='all' href="css/contactus.css">
+    <link rel="stylesheet" type='text/css' media='all' href="css/writetoceo.css">
+    <link rel="stylesheet" type='text/css' media='all' href="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.css">
+    <style>
+  </style> 
+    <script src="js/validation.js"></script>
+    <link rel="icon" href="assets/favicon.jpg" type="image/gif" sizes="16x16">
+    <title>Sankey Solutions :  World's First Technology Services Company Designed As An Innovation Lab</title>
+  </head>
+  <body>
+        <div class="top-nav" style="z-index: 1">
+            <a href="./index.html"><img src="assets/logo.png" alt="Sankey solutions"></a>
+            <div id="top-nav-content">
+                <!-- <a href="" class="disable-link">WRITE TO CEO</a> -->
+                <!-- <a href="writetoceo.html" >WRITE TO CEO</a> -->
+                <div class="mobile-menu-icon">
+                <img src="./assets/Hamburger2.svg" alt=""></div>
+            </div>
+        </div>
+        <div class="contactus-box">
+            <div class="box">
+                <div class="contactus-header" >
+                        <h3>Have an idea</h3>
+                        <h4>Write to CEO</h4>
+                </div>
+                <div class="content">
+                    <p>Need assistance in driving innovative ideas to execution? Or to design technical  front of your business?  Reach out directly to our CEO.</p>
+                </div>
+                <div class="form-box">
+                    <form autocomplete="off" id="submit-event" name="myform">
+                        <div class="form-top">
+                            <input type="text" placeholder="Your Name" id="name" name="name" oninput="nameValidation()" required>
+                            <div class="name-error error">
+                                Invalid name
+                            </div>
+                        </div>
+                        <div class="form-middle">
+                            <div class="form-middle-left">
+                                <input type="email" id="email" name="email" placeholder="Email" oninput="emailValidation()" required>
+                                <div class="email-error error">
+                                    Invalid email address
+                                </div>
+                                <!-- <label>Email</label> -->
+                            </div>
+                            <div class="form-middle-right">
+                                <input type="tel" class="input-class" id="contact" name="contact" placeholder="Contact number (e.g. +911234567890)" oninput="contactValidation()" required>
+                                <div class="contact-error error">
+                                    Invalid contact number
+                                </div>
+                                <!-- <label>Contact number</label> -->
+                            </div>
+                        </div>
+                        <div class="form-end">
+                            <textarea name="comment"  placeholder="Enter your comments" cols="20" rows="5" id="comment" oninput="commentValidation()" required></textarea>
+                            <div class="comment-error error">
+                                Maximum 500 characters are allowed
+                            </div>
+                        </div>
+                        <input type="hidden" id="type" name="type" value="ceo">
+                        <button name="submit" id="submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer animated fadeInUp animation-2x">
+                <!-- <div class="country ">
+                <div class="country-item "> <a href="contactus.html">INDIA</a></div>
+                <div class="country-item "><a href="contactus.html">HK</a></div>
+                <div class="country-item "><a href="contactus.html">SINGAPORE</a></div> 
+                <div class="country-item "><a href="contactus.html">UK</a></div> 
+                </div> -->
+                <div class="copyright-text">
+                    Copyright <span>&#9400;</span> 2019 Sankey Solutions, All rights reserved
+                </div>
+                <div class="connect ">
+                <div class="connect-item "> <a href="https://www.facebook.com/sankeysolutions/?epa=SEARCH_BOX" target="_blank"><i class="fa fa-facebook-square fa-lg"></i></a></div>
+                <div class="connect-item "><a href="https://www.instagram.com/sankey_solutions/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></div>
+                <div class="connect-item "><a href="https://twitter.com/sankeysolutions" target="_blank"><i class="fa fa-twitter-square fa-lg"></i></a></div> 
+                <div class="connect-item "><a href="https://www.linkedin.com/company/sankey-solutions/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></i></a></div> 
+                </div>
+        </div>
+        <div class="right-nav">
+            <div class="right-nav-content" id="journey"><a id="journey-link" href="journey.html">JOURNEY</a></div>
+            <div class="right-nav-content" id="team"><a id="team-link" href="team.html" >TEAM</a></div>
+            <div class="right-nav-content" id="services"><a id="services-link" href="services.html" >SERVICES</a></div>
+            <div class="right-nav-content" id="technology"><a id="technology-link" href="technologies.html">TECHNOLOGIES</a></div>
+            <div class="right-nav-content" id="blogs"><a id="blogs-link" href="home/" >BLOGS</a></div>
+            <div class="right-nav-content" id="events"><a id="events-link" href="events.php" >EVENTS</a></div>
+            <div class="right-nav-content" id="works"><a id="works-link" href="works.html" >WORKS</a></div>
+    </div>
+    <div class="left-nav">
+            <div id="career"><a id="career-link" href="careers.html" >CAREERS</a></div>
+            <div id="contactus" ><a id="contactus-link" href="contactus.html" >CONTACT US</a></div>
+    </div>
+    </div>
+    <div class="mobile-menu">
+                <div class="mobile-menu-exit"><i class="fa fa-times-circle fa-lg"></i></div>
+                <div class="mobile-menu-item">
+                        <div class="menu-item animation-1x "><a href="journey.html">JOURNEY</a></div>
+                        <div class="menu-item animation-2x1"><a href="team.html">TEAM</a></div>
+                        <div class="menu-item animation-3x"><a href="services.html">SERVICES</a></div>
+                        <div class="menu-item animation-4x"><a href="technologies.html">TECHNOLOGIES</a></div>
+                        <div class="menu-item animation-5x"><a href="home/">BLOGS</a></div>
+                        <div class="menu-item animation-6x"><a href="events.php" >EVENTS</a></div>
+                        <div class="menu-item animation-7x"><a href="works.html" >WORKS</a></div>
+                        <div class="menu-item animation-8x"><a href="careers.html">CAREERS</a></div>
+                        <div class="menu-item animation-9x"><a href="contactus.html">CONTACT US</a></div>
+                </div>
+                <!-- <div class="mobile-menu-footer-list">
+                <div class="country ">
+                <div class="country-item "> <a href="contactus.html">INDIA</a></div><span>&#124;</span>
+                <div class="country-item "><a href="contactus.html">HK</a></div><span>&#124;</span>
+                <div class="country-item "><a href="contactus.html">SINGAPORE</a></div><span>&#124;</span>
+                <div class="country-item "><a href="contactus.html">UK</a></div> 
+                </div> -->
+                <div class="mobile-menu-footer">
+                    <div class="social-icons">
+                        <div class="connect-item animation-1x" > <a href="https://www.facebook.com/sankeysolutions/?epa=SEARCH_BOX"><i class="fa fa-facebook-square fa-lg"></i></a></div>
+                        <div class="connect-item animation-3x"><a href="https://www.instagram.com/sankey_solutions/"><i class="fa fa-instagram fa-lg"></i></a></div>
+                        <div class="connect-item animation-5x" ><a href="https://www.linkedin.com/company/sankey-solutions/"><i class="fa fa-linkedin fa-lg"></i></i></a></div> 
+                        <div class="connect-item animation-7x" ><a href="https://twitter.com/sankeysolutions"><i class="fa fa-twitter-square fa-lg"></i></a></div> 
+                    </div>
+                    <div class="copyright-text">
+                    Copyright <span>&#9400;</span> 2019 Sankey Solutions, All rights reserved
+                    </div> 
+                </div>
+    </div>
+    <script>
+        //mobile menu                
+        $('.mobile-menu-icon').click(function(){
+                $('.mobile-menu').toggleClass('open');
+                $('.menu-item').toggleClass('animated fadeInLeft');
+                $('.connect-item').toggleClass('animated fadeInUpBig');
+        });
+        $(".mobile-menu-exit").click(function(){
+        $('.menu-item').removeClass('animated fadeInLeft ');
+        $('.connect-item').removeClass('animated fadeInUpBig');
+        $('.mobile-menu').removeClass('open');
+        });
+    </script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.js"></script>
+    <script>
+        // Variable to hold request
+        var request;
+    
+        $(document).ready(function(){
+    
+            // Bind to the submit event of our form
+            $("#submit-event").submit(function(event){
+    
+                // Prevent default posting of form - put here to work in case of errors
+                event.preventDefault();
+    
+                // Abort any pending request
+                if (request) {
+                    request.abort();
+                }
+                // setup some local variables
+                var $form = $(this);
+    
+                // Let's select and cache all the fields
+                var $inputs = $form.find("input, button, textarea");
+                if(flag_name == 1 && flag_email == 1 && flag_contact == 1 && flag_comment == 1){
+                    // Serialize the data in the form
+                    var serializedData = $form.serialize();
+        
+                    // Let's disable the inputs for the duration of the Ajax request.
+                    // Note: we disable elements AFTER the form data has been serialized.
+                    // Disabled form elements will not be serialized.
+                    $inputs.prop("disabled", true);
+                    
+                    // Fire off the request to /index.php
+                    request = $.ajax({
+                        url: "https://www.sankeysolutions.com/send_mail.php",
+                        type: "post",
+                        data: serializedData
+                    });
+        
+                    // Callback handler that will be called on success
+                    request.done(function (response, textStatus, jqXHR){
+                        // Log a message to the console
+                        // console.log("Hooray, it worked!");
+                        $.toast({
+                            text:'Submitted successfully',
+                            icon: 'info',
+                        })
+                    });
+        
+                    // Callback handler that will be called on failure
+                    request.fail(function (jqXHR, textStatus, errorThrown){
+                        // Log the error to the console
+                        // console.error(
+                        //     "The following error occurred: "+
+                        //     textStatus, errorThrown
+                        // );
+                        $.toast({
+                            text:'Error while submitting query',
+                            icon: 'error',    
+                        })
+                    });
+        
+                    // Callback handler that will be called regardless
+                    // if the request failed or succeeded
+                    request.always(function () {
+                        // Reenable the inputs
+                        $inputs.prop("disabled", false);
+                    });
+                }
+                else{
+                    $.toast({
+                        text:'Some fields are invalid.',
+                        icon: 'error'   
+                    })
+                }
+            });
+        });
+        </script>
+  </body>
+</html>
